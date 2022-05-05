@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Home Office - Cloud Centre of Excellence (CCoE)</title>
+  <title>Access keys - Cloud Centre of Excellence</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0b0c0c">
 
@@ -61,7 +61,7 @@
         <!-- <div class="app-site-search" data-module="app-search"
           data-search-index="/search-index-e675b1e463f677c88b84bbabe62f6038.json">
           <label class="govuk-visually-hidden" for="app-site-search__input">Search Design system</label>
-          <a class="app-site-search__link govuk-link" href="/sitemap">Sitemap</a>
+          <a class="app-site-search__link govuk-link" href="sitemap.html">Sitemap</a>
         </div> -->
         <div class="app-header-mobile-nav-toggler-wrapper">
           <button id="app-mobile-nav-toggler"
@@ -202,14 +202,16 @@
         </li>
 
         <li>
-          <div class="app-mobile-nav-subnav-toggler">
+          <div class="app-mobile-nav-subnav-toggler app-mobile-nav__subnav-toggler--active">
             <a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler"
               href="cloud-guidance.html">
               > Cloud guidance
             </a>
           </div>
 
-          <ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav" aria-label="Cloud guidance">
+          <ul
+            class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav app-mobile-nav__subnav--active"
+            aria-label="Cloud guidance">
             <li class="app-mobile-nav__subnav-item">
               <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="cloud-guidance.html">
                 Cloud guidance overview
@@ -275,7 +277,7 @@
                   </a>
                 </li>
 
-                <li class="app-mobile-nav__subnav-item">
+                <li class="app-mobile-nav__subnav-item app-mobile-nav__subnav-item--current">
                   <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="access-keys.html">
                     Access keys
                   </a>
@@ -524,8 +526,8 @@
     </nav>
     <!-- End of reflow nav -->
 
-    <!-- Start of pahse banner -->
     <div class="app-phase-banner__wrapper">
+
       <div class="govuk-phase-banner app-phase-banner app-width-container">
         <p class="govuk-phase-banner__content">
           <strong class="govuk-tag govuk-phase-banner__content__tag">
@@ -537,151 +539,319 @@
           </span>
         </p>
       </div>
-    </div>
-    <!-- End of phase banner -->
 
-    <!-- Start of top nav -->
+    </div>
+
     <nav class="app-navigation govuk-clearfix">
       <ul class="app-navigation__list app-width-container">
 
         <li class="app-navigation__list-item">
           <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-training.html"
-            data-topnav="Styles">Training</a>
+            data-topnav="Styles">Cloud training</a>
         </li>
 
-        <li class="app-navigation__list-item">
+        <li class="app-navigation__list-item app-navigation__list-item--current">
           <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-guidance.html"
-            data-topnav="Components">Guidance</a>
+            data-topnav="Components">Cloud guidance</a>
         </li>
 
         <li class="app-navigation__list-item">
           <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-services.html"
-            data-topnav="Patterns">Access</a>
+            data-topnav="Patterns">Cloud services</a>
         </li>
 
         <li class="app-navigation__list-item">
           <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-support.html"
-            data-topnav="Patterns">Support</a>
+            data-topnav="Patterns">Cloud support</a>
         </li>
-
-         <li class="app-navigation__list-item">
-          <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-support.html"
-            data-topnav="Patterns">Cloud Vending Team</a>
-        </li>
-
-        <li class="app-navigation__list-item">
-          <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-support.html"
-            data-topnav="Patterns">FAQ</a>
-        </li>
-
       </ul>
     </nav>
-    <!-- End of top nav -->
-
-    <!-- Start of blue banner -->
-    <div class="app-masthead">
-      <div class="app-width-container">
-        <div class="govuk-grid-row">
-          <div class="govuk-grid-column-full-from-desktop">
-            <h1 class="govuk-heading-xl app-masthead__title">Supporting Home Office cloud users</h1>
-            <p class="app-masthead__description">This platform will help cloud users find guidance on Amazon Web
-              Services (AWS) and Microsoft Azure, book cloud training, use Cloud Vending Team services such as Identity
-              and Access Management (IAM) and access cloud support.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End of blue banner -->
-
-    <!-- Start of What's new? -->
-    <div class="app-whats-new">
-      <div class="app-width-container">
-        <div class="govuk-main-wrapper govuk-main-wrapper--l">
-          <div class="govuk-grid-row">
-            <div class="govuk-grid-column-two-thirds-from-desktop">
-              <h2 id="whats-new" class="govuk-heading-l">What’s new</h2>
-              <p class="govuk-body">You can view the <a href="/whats-new.html">what's new page</a> to see updates to the
-                CCoE.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End of What's new? -->
 
     <div class="app-pane__body app-width-container">
+      <div class="app-pane__subnav">
+        <nav class="app-subnav">
+
+          <h4 id="side-nav" class="app-subnav__theme">Operational excellence</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="operational-excellence-pillar.html">Operational excellence pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="aws-organisations.html">> Amazon
+                Web Services (AWS) organisations</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="tagging-standards.html">Tagging
+                standards</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="trusted-advisor.html">AWS
+                Trusted Advisor</a>
+            </li>
+          </ul>
+
+
+          <h4 class="app-subnav__theme">Security</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="security-pillar.html">Security
+                pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="shared-responsibility-model.html">Shared responsibility model</a>
+            </li>
+
+            <li class="app-subnav__section-item app-subnav__section-item--current">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="access-keys.html">Access
+                keys</a>
+            </li>
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="guardrails.html">>
+                Guardrails</a>
+            </li>
+            <li class="app-subnav__section-item">
+              <!-- <a class="rotate">></a> -->
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="amazon-s3.html">Amazon S3</a>
+            </li>
+          </ul>
+
+          <h4 class="app-subnav__theme">Reliability</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="reliability-pillar.html">Reliability pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="aws-enterprise-support.html">AWS
+                enterprise support</a>
+            </li>
+          </ul>
+
+          <h4 class="app-subnav__theme">Performance efficiency</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="performance-efficiency-pillar.html">Performance efficiency pillar</a>
+            </li>
+          </ul>
+
+          <h4 class="app-subnav__theme">Cost optimisation</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="cost-optimisation-pillar.html">Cost
+                optimisation pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="cost-optimisation-standards.html">Cost
+                optimisation standards</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="recharging-and-finance-guidance.html">Recharging and finance guidance</a>
+            </li>
+          </ul>
+
+        </nav>
+
+      </div>
+
 
       <!-- Start of main body -->
       <div class="app-pane__content">
-
-        <main id="main-content" class="app-content" role="main" style="padding-left: 0px;">
-
-          <div class="govuk-grid-row">
-
-            <div style="padding-bottom: 15px;" class="govuk-grid-column-one-quarter">
-              <h2 class="govuk-heading-m">Training</h2>
-              <p class="govuk-body">Book <a href="cloud-training.html" class="govuk-link"> cloud training</a>
-                for you or your team through our cloud providers platforms.</p>
-            </div>
-
-            <div style="padding-bottom: 15px;" class="govuk-grid-column-one-quarter">
-              <h2 class="govuk-heading-m">Guidance</h2>
-              <p class="govuk-body">View bespoke Home Office <a href="cloud-guidance.html" class="govuk-link"> cloud
-                  guidance</a> for AWS and Microsoft Azure services.</p>
-            </div>
-
-            <div style="padding-bottom: 15px;" class="govuk-grid-column-one-quarter">
-              <h2 class="govuk-heading-m">Access</h2>
-              <p class="govuk-body">View <a href="cloud-services.html" class="govuk-link">cloud services</a>
-                including IAM requests and Home Office sandboxes.</p>
-            </div>
-
-            <div style="padding-bottom: 15px;" class="govuk-grid-column-one-quarter">
-              <h2 class="govuk-heading-m">Support</h2>
-              <p class="govuk-body">View <a href="cloud-support.html" class="govuk-link"> cloud support</a> for Cloud
-                Vending Team support, AWS and Azure support and FAQs.</p>
-            </div>
-          </div>
-
-          <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+        <main id="main-content" class="app-content" role="main">
 
           <div class="govuk-grid-row">
-            <div class="govuk-grid-column-two-thirds" style="padding-top: 35px;">
-              <h2 class="govuk-heading-l">Cloud Vending Team</h2>
 
-              <p class="govuk-body">This service has been created by the Cloud Vending Team and it is replacing the
-                Cloud Vending Team confluence area. We are an agile team based in Manchester and Croydon.</p>
-
-              <p class="govuk-body">Our roles in the Home Office include:</p>
-              <ul class="govuk-list govuk-list--bullet">
-                <li>governing the use of cloud across the department</li>
-                <li>enabling teams to access the cloud and ensure that cloud accounts are secured and monitored</li>
-                <li>provide support and guidance to make better use of Cloud services from our cloud providers, AWS &
-                  Azure</li>
-              </ul>
-
-              <p class="govuk-body">This is a live service, and we will be updating and improving the service regularly.
-                For any other queries or support you need that hasn't been included on this service please contact: <a
-                  href="mailto:public.cloud@homeoffice.gov.uk">public.cloud@homeoffice.gov.uk</a>.</p>
+            <div class="govuk-breadcrumbs ">
+              <ol class="govuk-breadcrumbs__list">
+                <li class="govuk-breadcrumbs__list-item">
+                  <a class="govuk-breadcrumbs__link" href="/">Home</a>
+                </li>
+                <li class="govuk-breadcrumbs__list-item">
+                  <a class="govuk-breadcrumbs__link" href="cloud-guidance.html">Cloud guidance</a>
+                </li>
+                </li>
+                <li class="govuk-breadcrumbs__list-item">
+                  <a class="govuk-breadcrumbs__link" href="access-keys.html">Access keys</a>
+                </li>
+              </ol>
             </div>
 
-            <div class="govuk-grid-column-one-third">
-              <img style="border: none; padding: none; max-width: 200px;" src="images/turtle_sticker.svg"
-                alt="Cloud Vending Team Logo">
-            </div>
+            <span class="govuk-caption-xl">Security</span>
+            <h1 class="govuk-heading-xl">Access keys</h1>
+
+            <p class="govuk-body">This page is for Amazon Web Services (AWS) Identity and Access Management (IAM) Home
+              Office cloud users. All cloud users in the Home Office are IAM users as their account is managed by the
+              Cloud Vending Team.</p>
+
+            <p class="govuk-body">This content explains:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+              <li><a href="#accesskeys_explanation" class="govuk-link">what access keys are</a></li>
+              <li><a href="#rotate_keys" class="govuk-link">how to rotate your access keys</a></li>
+              <li><a href="#policy" class="govuk-link">the Home Office access key policy</a></li>
+              <li><a href="#AWS_services" class="govuk-link">access keys for AWS services</a></li>
+              <li><a href="#temporary" class="govuk-link">temporary access keys</a></li>
+            </ul>
+            <!-- Hidden back to nav link </a> -->
+            <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <h2 id="accesskeys_explanation" class="govuk-heading-l">What are access keys?</h2>
+            <p class="govuk-body">AWS access keys are long-term credentials for IAM users. Access keys consist of an ID
+              and a secret and provide programmatic access. Programmatic access is for services access, for example
+              the S3 Bucket. Programmatic access is used to automate processes and actions to allow services to interact
+              with Amazon. Access keys can be used to sign programmatic requests to the AWS Command Line Interface (CLI)
+              or AWS Application Programming Interface (API).</p>
+
+            <!-- Hidden back to nav link </a> -->
+            <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <h2 id="rotate_keys" class="govuk-heading-l">Rotating access keys</h2>
+
+            <p class="govuk-body">Follow the AWS step-by-step guidance for <a
+                href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_RotateAccessKey">rotating
+                access keys</a>. If you need to make any changes to your account, you can view guidance on <a
+                href="how-to-create-an-aws-iam-ticket.html">how to raise a request with the Cloud Vending Team</a>.</p>
+
+            <p class="govuk-body">You should rotate your access keys because:</p>
+
+            <ul class="govuk-list govuk-list--number">
+              <li>Access keys older than 90 days are a security risk to the Home Office. The Cloud Vending Team are
+                carrying out daily audits to find users that have access keys older than 90 days.</li>
+              <li>AWS set rotating access keys in their <a
+                  href="https://aws.amazon.com/blogs/security/top-10-security-items-to-improve-in-your-aws-account/">top
+                  10 security items</a>.</li>
+              <li>The <a href="https://d1.awsstatic.com/whitepapers/compliance/AWS_CIS_Foundations_Benchmark.pdf">CIS
+                  AWS Foundation Benchmark</a> states you must rotate access keys to ensure that data cannot be accessed
+                with an old key which might have been lost, cracked, or stolen. One of the main risks is it provides a
+                window of opportunity for someone to use the keys. Rotating the keys reduces the window of opportunity
+                smaller and stops ongoing access.</li>
+            </ul>
+
+            <!-- Hidden back to nav link </a> -->
+            <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <h2 id="policy" class="govuk-heading-l">Home Office access key policy</h2>
+
+            <p class="govuk-body">The Cloud Vending Team are implementing the following policy for access keys, to
+              reduce the risks to the Home Office. We will not force business areas to follow the policy. The policy
+              allows us to highlight where there are potential risks in the organisation.</p>
+
+            <p class="govuk-body">Please adhere to the following points:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+              <li>only create AWS access keys where there is a clear need for programmatic access</li>
+              <li>use temporary access keys when possible</li>
+              <li>rotate access keys every 90 days</li>
+              <li>never share an access key with people that do not need it</li>
+              <li>store access keys securely and approved as part of a service's security assurance</li>
+              <li>do not embed access keys directly into code or repositories</li>
+              <li>tools provided by the AWS SDK and command line tools (for example, AWS credentials file) should be
+                used instead and for more information, see the <a
+                  href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_use-resources.html">AWS
+                  documentation for using temporary credentials</a></li>
+              <li>if an AWS access key is published to the internet (for example, GitHub), shared or lost you should
+                follow the relevant incident management process:
+                <ul>
+                  <li>you should notify the <a
+                      href="mailto:public.cloud@homeoffice.gov.uk">public.cloud@homeoffice.gov.uk</a> immediately</li>
+                  <li>make the affected access key inactive and delete it</li>
+                </ul>
+              </li>
+              <li>you should limit permissions for individual users, services or applications using AWS access keys</li>
+              <li>you should base access on least privilege and regularly review access</li>
+              <li>administrative permissions should be given as a last resort</li>
+              <li>any IAM user that has programmatic access must enable Multi Factor Authentication (MFA)</li>
+            </ul>
+
+            <!-- Hidden back to nav link </a> -->
+            <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <h2 id="AWS_services" class="govuk-heading-l">How to use access keys in different AWS services</h2>
+
+            <h3 class="govuk-heading-m">Amazon EC2</h3>
+
+            <p class="govuk-body">Where an application or AWS CLI script is running on an EC2 instance do not use access
+              keys directly in the application. Instead define an IAM role that has the appropriate permissions for your
+              application and attach the role to the EC2 instance. For applications using the AWS SDKs and CLI
+              temporary, credentials are retrieved from the role automatically. For more information, see the <a
+                href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html">IAM roles for
+                EC2 documentation</a>.</p>
+
+            <h3 class="govuk-heading-m">AWS Lambda</h3>
+
+            <p class="govuk-body">Each Lambda function has an execution role created in IAM that provides the function
+              with the necessary permissions to run. When using the AWS SDKs, the temporary credentials are
+              automatically retrieved from the execution role. Do not use long-lived AWS access keys when using Lambda,
+              including providing them using the environmental variables. For more information, see the <a
+                href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-intro-execution-role.html">AWS Lambda
+                execution role documentation</a>.</p>
+
+            <h3 class="govuk-heading-m">IAM Users</h3>
+
+            <p class="govuk-body">Most IAM users do not need access keys that provide them with high levels of
+              permissions, or multiple access keys to access multiple AWS accounts. Following best practice, IAM users
+              should instead be provided with a single AWS access key that provides a minimal level of access. This
+              reduces the risk if credentials are exposed.</p>
+
+            <!-- Hidden back to nav link </a> -->
+            <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <h2 id="temporary" class="govuk-heading-l">Temporary access keys</h2>
+
+            <p class="govuk-body">AWS recommends the use of temporary access keys through the use of the Security Token
+              Service (STS) instead of using long term access keys. The STS can create and provide trusted users with
+              temporary security credentials that can control access to your AWS resources.</p>
+
+            <p class="govuk-body">This is a new service and the Home Office has access keys embedded into services. This
+              is fine as long as they are being rotated regularly. STS should be used where possible as they can be
+              configured to last for anywhere from a few minutes to several hours. This is more secure because if
+              credentials are stolen then they automatically expire after a short time.</p>
+
+            <p class="govuk-body">For more information on STS view <a
+                href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp.html">AWS temporary security
+                credentials</a> and <a
+                href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_revoke-sessions.html">revoking IAM
+                role temporary security credentials</a>.</p>
+
+            <!-- Hidden back to nav link </a> -->
+            <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <a href="#top" class="govuk-link">Back to top</a>
+
           </div>
-
-          <!-- Hidden back to nav link </a> -->
-          <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
-
-          <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
-
-          <a href="#top" class="govuk-link">Back to top</a>
 
         </main>
 
       </div>
-      <!-- End of main body -->
 
       <!-- <div class="app-back-to-top app-back-to-top--hidden" data-module="app-back-to-top">
         <a class="govuk-link govuk-link--no-visited-state app-back-to-top__link" href="#top">
@@ -738,12 +908,10 @@
                 </li>
               </ul>
           </div>
-
         </div>
       </div>
     </footer>
     <!-- End of footer -->
-
 
   </div>
 
@@ -754,44 +922,6 @@
   <!--[if lt IE 9]>
     <script src="/javascripts/application-ie8-5a2cfeaee9daeca7d49c5835fd89f009.js"></script>
   <![endif]-->
-
-  <script>
-    function headingSearchFunction() {
-      var input, filter, h3, i, txtValue;
-      input = document.getElementById("headingSearch");
-      filter = input.value.toUpperCase();
-      h3 = document.getElementByTagName("headings");
-      for (i = 0; i < h3.length; i++) {
-        h3 = h3[i].getElementsByTagName("h3")[0];
-        txtValue = h3.textContent || h3.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          h3[i].style.display = "";
-        } else {
-          h3[i].style.display = "none";
-        }
-      }
-    }
-  </script>
-
-  <!-- <script>
-function myFunction() {
-    var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
-    li = ul.getElementsByTagName("li");
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        txtValue = a.textContent || a.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
-        } else {
-            li[i].style.display = "none";
-        }
-    }
-}
-</script> -->
-
 
 </body>
 

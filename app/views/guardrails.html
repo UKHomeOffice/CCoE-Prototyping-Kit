@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Home Office - Cloud Centre of Excellence (CCoE)</title>
+  <title>Guardrails - Cloud Centre of Excellence</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0b0c0c">
 
@@ -61,7 +61,7 @@
         <!-- <div class="app-site-search" data-module="app-search"
           data-search-index="/search-index-e675b1e463f677c88b84bbabe62f6038.json">
           <label class="govuk-visually-hidden" for="app-site-search__input">Search Design system</label>
-          <a class="app-site-search__link govuk-link" href="/sitemap">Sitemap</a>
+          <a class="app-site-search__link govuk-link" href="sitemap.html">Sitemap</a>
         </div> -->
         <div class="app-header-mobile-nav-toggler-wrapper">
           <button id="app-mobile-nav-toggler"
@@ -202,14 +202,16 @@
         </li>
 
         <li>
-          <div class="app-mobile-nav-subnav-toggler">
+          <div class="app-mobile-nav-subnav-toggler app-mobile-nav__subnav-toggler--active">
             <a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler"
               href="cloud-guidance.html">
               > Cloud guidance
             </a>
           </div>
 
-          <ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav" aria-label="Cloud guidance">
+          <ul
+            class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav app-mobile-nav__subnav--active"
+            aria-label="Cloud guidance">
             <li class="app-mobile-nav__subnav-item">
               <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="cloud-guidance.html">
                 Cloud guidance overview
@@ -281,7 +283,7 @@
                   </a>
                 </li>
 
-                <li class="app-mobile-nav__subnav-item">
+                <li class="app-mobile-nav__subnav-item app-mobile-nav__subnav-item--current">
                   <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="guardrails.html">
                     Guardrails
                   </a>
@@ -524,8 +526,8 @@
     </nav>
     <!-- End of reflow nav -->
 
-    <!-- Start of pahse banner -->
     <div class="app-phase-banner__wrapper">
+
       <div class="govuk-phase-banner app-phase-banner app-width-container">
         <p class="govuk-phase-banner__content">
           <strong class="govuk-tag govuk-phase-banner__content__tag">
@@ -537,160 +539,211 @@
           </span>
         </p>
       </div>
-    </div>
-    <!-- End of phase banner -->
 
-    <!-- Start of top nav -->
+    </div>
+
     <nav class="app-navigation govuk-clearfix">
       <ul class="app-navigation__list app-width-container">
 
         <li class="app-navigation__list-item">
           <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-training.html"
-            data-topnav="Styles">Training</a>
+            data-topnav="Styles">Cloud training</a>
         </li>
 
-        <li class="app-navigation__list-item">
+        <li class="app-navigation__list-item app-navigation__list-item--current">
           <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-guidance.html"
-            data-topnav="Components">Guidance</a>
+            data-topnav="Components">Cloud guidance</a>
         </li>
 
         <li class="app-navigation__list-item">
           <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-services.html"
-            data-topnav="Patterns">Access</a>
+            data-topnav="Patterns">Cloud services</a>
         </li>
 
         <li class="app-navigation__list-item">
           <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-support.html"
-            data-topnav="Patterns">Support</a>
+            data-topnav="Patterns">Cloud support</a>
         </li>
-
-         <li class="app-navigation__list-item">
-          <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-support.html"
-            data-topnav="Patterns">Cloud Vending Team</a>
-        </li>
-
-        <li class="app-navigation__list-item">
-          <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-support.html"
-            data-topnav="Patterns">FAQ</a>
-        </li>
-
       </ul>
     </nav>
-    <!-- End of top nav -->
-
-    <!-- Start of blue banner -->
-    <div class="app-masthead">
-      <div class="app-width-container">
-        <div class="govuk-grid-row">
-          <div class="govuk-grid-column-full-from-desktop">
-            <h1 class="govuk-heading-xl app-masthead__title">Supporting Home Office cloud users</h1>
-            <p class="app-masthead__description">This platform will help cloud users find guidance on Amazon Web
-              Services (AWS) and Microsoft Azure, book cloud training, use Cloud Vending Team services such as Identity
-              and Access Management (IAM) and access cloud support.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End of blue banner -->
-
-    <!-- Start of What's new? -->
-    <div class="app-whats-new">
-      <div class="app-width-container">
-        <div class="govuk-main-wrapper govuk-main-wrapper--l">
-          <div class="govuk-grid-row">
-            <div class="govuk-grid-column-two-thirds-from-desktop">
-              <h2 id="whats-new" class="govuk-heading-l">What’s new</h2>
-              <p class="govuk-body">You can view the <a href="/whats-new.html">what's new page</a> to see updates to the
-                CCoE.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End of What's new? -->
 
     <div class="app-pane__body app-width-container">
+      <div class="app-pane__subnav">
+        <nav class="app-subnav">
+
+          <h4 id="side-nav" class="app-subnav__theme">Operational excellence</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="operational-excellence-pillar.html">Operational excellence pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="aws-organisations.html">> Amazon
+                Web Services (AWS) organisations</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="tagging-standards.html">Tagging
+                standards</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="trusted-advisor.html">AWS
+                Trusted Advisor</a>
+            </li>
+          </ul>
+
+          <h4 class="app-subnav__theme">Security</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="security-pillar.html">Security
+                pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="shared-responsibility-model.html">Shared responsibility model</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="access-keys.html">Access
+                keys</a>
+            </li>
+            <li class="app-subnav__section-item app-subnav__section-item--current">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="guardrails.html"><b>></b>
+                Guardrails</a>
+            </li>
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="preventive-guardrails.html">-
+                Preventive guardrails</a>
+            </li>
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="detective-guardrails.html">-
+                Detective guardrails</a>
+            </li>
+            <li class="app-subnav__section-item">
+              <!-- <a class="rotate">></a> -->
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="amazon-s3.html">Amazon S3</a>
+            </li>
+          </ul>
+
+          <h4 class="app-subnav__theme">Reliability</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="reliability-pillar.html">Reliability pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="aws-enterprise-support.html">AWS
+                enterprise support</a>
+            </li>
+          </ul>
+
+          <h4 class="app-subnav__theme">Performance efficiency</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="performance-efficiency-pillar.html">Performance efficiency pillar</a>
+            </li>
+          </ul>
+
+          <h4 class="app-subnav__theme">Cost optimisation</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="cost-optimisation-pillar.html">Cost
+                optimisation pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="cost-optimisation-standards.html">Cost
+                optimisation standards</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="recharging-and-finance-guidance.html">Recharging and finance guidance</a>
+            </li>
+          </ul>
+
+        </nav>
+
+      </div>
 
       <!-- Start of main body -->
       <div class="app-pane__content">
-
-        <main id="main-content" class="app-content" role="main" style="padding-left: 0px;">
-
-          <div class="govuk-grid-row">
-
-            <div style="padding-bottom: 15px;" class="govuk-grid-column-one-quarter">
-              <h2 class="govuk-heading-m">Training</h2>
-              <p class="govuk-body">Book <a href="cloud-training.html" class="govuk-link"> cloud training</a>
-                for you or your team through our cloud providers platforms.</p>
-            </div>
-
-            <div style="padding-bottom: 15px;" class="govuk-grid-column-one-quarter">
-              <h2 class="govuk-heading-m">Guidance</h2>
-              <p class="govuk-body">View bespoke Home Office <a href="cloud-guidance.html" class="govuk-link"> cloud
-                  guidance</a> for AWS and Microsoft Azure services.</p>
-            </div>
-
-            <div style="padding-bottom: 15px;" class="govuk-grid-column-one-quarter">
-              <h2 class="govuk-heading-m">Access</h2>
-              <p class="govuk-body">View <a href="cloud-services.html" class="govuk-link">cloud services</a>
-                including IAM requests and Home Office sandboxes.</p>
-            </div>
-
-            <div style="padding-bottom: 15px;" class="govuk-grid-column-one-quarter">
-              <h2 class="govuk-heading-m">Support</h2>
-              <p class="govuk-body">View <a href="cloud-support.html" class="govuk-link"> cloud support</a> for Cloud
-                Vending Team support, AWS and Azure support and FAQs.</p>
-            </div>
-          </div>
-
-          <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+        <main id="main-content" class="app-content" role="main">
 
           <div class="govuk-grid-row">
-            <div class="govuk-grid-column-two-thirds" style="padding-top: 35px;">
-              <h2 class="govuk-heading-l">Cloud Vending Team</h2>
 
-              <p class="govuk-body">This service has been created by the Cloud Vending Team and it is replacing the
-                Cloud Vending Team confluence area. We are an agile team based in Manchester and Croydon.</p>
+            <div class="govuk-breadcrumbs ">
+              <ol class="govuk-breadcrumbs__list">
+                <li class="govuk-breadcrumbs__list-item">
+                  <a class="govuk-breadcrumbs__link" href="/">Home</a>
+                </li>
+                <li class="govuk-breadcrumbs__list-item">
+                  <a class="govuk-breadcrumbs__link" href="cloud-guidance.html">Cloud guidance</a>
+                </li>
+                <li class="govuk-breadcrumbs__list-item">
+                  <a class="govuk-breadcrumbs__link" href="preventive-guardrails.html">Guardrails</a>
+                </li>
+              </ol>
+            </div>
 
-              <p class="govuk-body">Our roles in the Home Office include:</p>
-              <ul class="govuk-list govuk-list--bullet">
-                <li>governing the use of cloud across the department</li>
-                <li>enabling teams to access the cloud and ensure that cloud accounts are secured and monitored</li>
-                <li>provide support and guidance to make better use of Cloud services from our cloud providers, AWS &
-                  Azure</li>
+            <span class="govuk-caption-xl">Security</span>
+            <h1 class="govuk-heading-xl">Guardrails</h1>
+
+            <!-- Hidden back to nav link </a> -->
+            <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+
+            <p class="govuk-body">A guardrail is a high-level rule that provides ongoing governance for your Amazon Web
+              Services (AWS) environment. Guardrails provide controls that govern and monitor resources when they are
+              applied to accounts or organisational units (OU) in <a
+                href="https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html">AWS
+                organisations</a>. There are different types of guardarils, <a
+                href="preventive-guardrails.html">preventive</a> and <a href="detective-guardrails.html">detective.</p>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible" />
+
+            <nav class="moj-pagination" id="pagination-label">
+              <p class="govuk-visually-hidden" aria-labelledby="pagination-label">Pagination navigation</p>
+
+              <ul class="moj-pagination__list">
+                <li class="moj-pagination__item  moj-pagination__item--next">
+                  <a class="moj-pagination__link" href="preventive-guardrails.html">Next<span
+                      class="govuk-visually-hidden"> set of pages</span></a>
+                </li>
               </ul>
+            </nav>
 
-              <p class="govuk-body">This is a live service, and we will be updating and improving the service regularly.
-                For any other queries or support you need that hasn't been included on this service please contact: <a
-                  href="mailto:public.cloud@homeoffice.gov.uk">public.cloud@homeoffice.gov.uk</a>.</p>
-            </div>
+            <!-- Hidden back to nav link </a> -->
+            <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
 
-            <div class="govuk-grid-column-one-third">
-              <img style="border: none; padding: none; max-width: 200px;" src="images/turtle_sticker.svg"
-                alt="Cloud Vending Team Logo">
-            </div>
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible" />
+
+            <a href="#top" class="govuk-link">Back to top</a>
+
           </div>
-
-          <!-- Hidden back to nav link </a> -->
-          <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
-
-          <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
-
-          <a href="#top" class="govuk-link">Back to top</a>
 
         </main>
 
       </div>
-      <!-- End of main body -->
-
-      <!-- <div class="app-back-to-top app-back-to-top--hidden" data-module="app-back-to-top">
+      <div class="app-back-to-top app-back-to-top--hidden" data-module="app-back-to-top">
         <a class="govuk-link govuk-link--no-visited-state app-back-to-top__link" href="#top">
           <svg role="presentation" focusable="false" class="app-back-to-top__icon" xmlns="http://www.w3.org/2000/svg"
             width="13" height="17" viewBox="0 0 13 17">
             <path fill="currentColor" d="M6.5 0L0 6.5 1.4 8l4-4v12.7h2V4l4.3 4L13 6.4z"></path>
           </svg>Back to top
         </a>
-      </div> -->
+      </div>
 
     </div>
 
@@ -738,12 +791,10 @@
                 </li>
               </ul>
           </div>
-
         </div>
       </div>
     </footer>
     <!-- End of footer -->
-
 
   </div>
 
@@ -754,44 +805,6 @@
   <!--[if lt IE 9]>
     <script src="/javascripts/application-ie8-5a2cfeaee9daeca7d49c5835fd89f009.js"></script>
   <![endif]-->
-
-  <script>
-    function headingSearchFunction() {
-      var input, filter, h3, i, txtValue;
-      input = document.getElementById("headingSearch");
-      filter = input.value.toUpperCase();
-      h3 = document.getElementByTagName("headings");
-      for (i = 0; i < h3.length; i++) {
-        h3 = h3[i].getElementsByTagName("h3")[0];
-        txtValue = h3.textContent || h3.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          h3[i].style.display = "";
-        } else {
-          h3[i].style.display = "none";
-        }
-      }
-    }
-  </script>
-
-  <!-- <script>
-function myFunction() {
-    var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
-    li = ul.getElementsByTagName("li");
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        txtValue = a.textContent || a.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
-        } else {
-            li[i].style.display = "none";
-        }
-    }
-}
-</script> -->
-
 
 </body>
 

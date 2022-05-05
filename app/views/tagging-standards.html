@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Home Office - Cloud Centre of Excellence (CCoE)</title>
+  <title>Tagging standards - Cloud Centre of Excellence</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0b0c0c">
 
@@ -61,7 +61,7 @@
         <!-- <div class="app-site-search" data-module="app-search"
           data-search-index="/search-index-e675b1e463f677c88b84bbabe62f6038.json">
           <label class="govuk-visually-hidden" for="app-site-search__input">Search Design system</label>
-          <a class="app-site-search__link govuk-link" href="/sitemap">Sitemap</a>
+          <a class="app-site-search__link govuk-link" href="sitemap.html">Sitemap</a>
         </div> -->
         <div class="app-header-mobile-nav-toggler-wrapper">
           <button id="app-mobile-nav-toggler"
@@ -202,14 +202,16 @@
         </li>
 
         <li>
-          <div class="app-mobile-nav-subnav-toggler">
+          <div class="app-mobile-nav-subnav-toggler app-mobile-nav__subnav-toggler--active">
             <a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler"
               href="cloud-guidance.html">
               > Cloud guidance
             </a>
           </div>
 
-          <ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav" aria-label="Cloud guidance">
+          <ul
+            class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav app-mobile-nav__subnav--active"
+            aria-label="Cloud guidance">
             <li class="app-mobile-nav__subnav-item">
               <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="cloud-guidance.html">
                 Cloud guidance overview
@@ -241,7 +243,7 @@
                   </a>
                 </li>
 
-                <li class="app-mobile-nav__subnav-item">
+                <li class="app-mobile-nav__subnav-item app-mobile-nav__subnav-item--current">
                   <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="tagging-standards.html">
                     Tagging standards
                   </a>
@@ -524,8 +526,8 @@
     </nav>
     <!-- End of reflow nav -->
 
-    <!-- Start of pahse banner -->
     <div class="app-phase-banner__wrapper">
+
       <div class="govuk-phase-banner app-phase-banner app-width-container">
         <p class="govuk-phase-banner__content">
           <strong class="govuk-tag govuk-phase-banner__content__tag">
@@ -537,160 +539,468 @@
           </span>
         </p>
       </div>
-    </div>
-    <!-- End of phase banner -->
 
-    <!-- Start of top nav -->
+    </div>
+
     <nav class="app-navigation govuk-clearfix">
       <ul class="app-navigation__list app-width-container">
 
         <li class="app-navigation__list-item">
           <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-training.html"
-            data-topnav="Styles">Training</a>
+            data-topnav="Styles">Cloud training</a>
         </li>
 
-        <li class="app-navigation__list-item">
+        <li class="app-navigation__list-item app-navigation__list-item--current">
           <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-guidance.html"
-            data-topnav="Components">Guidance</a>
+            data-topnav="Components">Cloud guidance</a>
         </li>
 
         <li class="app-navigation__list-item">
           <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-services.html"
-            data-topnav="Patterns">Access</a>
+            data-topnav="Patterns">Cloud services</a>
         </li>
 
         <li class="app-navigation__list-item">
           <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-support.html"
-            data-topnav="Patterns">Support</a>
+            data-topnav="Patterns">Cloud support</a>
         </li>
-
-         <li class="app-navigation__list-item">
-          <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-support.html"
-            data-topnav="Patterns">Cloud Vending Team</a>
-        </li>
-
-        <li class="app-navigation__list-item">
-          <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-support.html"
-            data-topnav="Patterns">FAQ</a>
-        </li>
-
       </ul>
     </nav>
-    <!-- End of top nav -->
-
-    <!-- Start of blue banner -->
-    <div class="app-masthead">
-      <div class="app-width-container">
-        <div class="govuk-grid-row">
-          <div class="govuk-grid-column-full-from-desktop">
-            <h1 class="govuk-heading-xl app-masthead__title">Supporting Home Office cloud users</h1>
-            <p class="app-masthead__description">This platform will help cloud users find guidance on Amazon Web
-              Services (AWS) and Microsoft Azure, book cloud training, use Cloud Vending Team services such as Identity
-              and Access Management (IAM) and access cloud support.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End of blue banner -->
-
-    <!-- Start of What's new? -->
-    <div class="app-whats-new">
-      <div class="app-width-container">
-        <div class="govuk-main-wrapper govuk-main-wrapper--l">
-          <div class="govuk-grid-row">
-            <div class="govuk-grid-column-two-thirds-from-desktop">
-              <h2 id="whats-new" class="govuk-heading-l">What’s new</h2>
-              <p class="govuk-body">You can view the <a href="/whats-new.html">what's new page</a> to see updates to the
-                CCoE.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End of What's new? -->
 
     <div class="app-pane__body app-width-container">
+      <div class="app-pane__subnav">
+        <nav class="app-subnav">
+
+          <h4 id="side-nav" class="app-subnav__theme">Operational excellence</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="operational-excellence-pillar.html">Operational excellence pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="aws-organisations.html">> Amazon
+                Web Services (AWS) organisations</a>
+            </li>
+
+            <li class="app-subnav__section-item app-subnav__section-item--current">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="tagging-standards.html">Tagging
+                standards</a>
+            </li>
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="trusted-advisor.html">AWS
+                Trusted Advisor</a>
+            </li>
+          </ul>
+
+          <h4 class="app-subnav__theme">Security</h4>
+          <ul class="app-subnav__section">
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="security-pillar.html">Security
+                pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="shared-responsibility-model.html">Shared responsibility model</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="access-keys.html">Access
+                keys</a>
+            </li>
+            <li class="app-subnav__section-item">
+              <!-- <a class="rotate">></a> -->
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="guardrails.html">>
+                Guardrails</a>
+            </li>
+            <li class="app-subnav__section-item">
+              <!-- <a class="rotate">></a> -->
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="amazon-s3.html">Amazon S3</a>
+            </li>
+          </ul>
+
+
+          <h4 class="app-subnav__theme">Reliability</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="reliability-pillar.html">Reliability pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="aws-enterprise-support.html">AWS
+                enterprise support</a>
+            </li>
+          </ul>
+
+          <h4 class="app-subnav__theme">Performance efficiency</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="performance-efficiency-pillar.html">Performance efficiency pillar</a>
+            </li>
+          </ul>
+
+          <h4 class="app-subnav__theme">Cost optimisation</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="cost-optimisation-pillar.html">Cost
+                optimisation pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="cost-optimisation-standards.html">Cost
+                optimisation standards</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="recharging-and-finance-guidance.html">Recharging and finance guidance</a>
+            </li>
+          </ul>
+
+        </nav>
+
+      </div>
+
 
       <!-- Start of main body -->
       <div class="app-pane__content">
-
-        <main id="main-content" class="app-content" role="main" style="padding-left: 0px;">
-
-          <div class="govuk-grid-row">
-
-            <div style="padding-bottom: 15px;" class="govuk-grid-column-one-quarter">
-              <h2 class="govuk-heading-m">Training</h2>
-              <p class="govuk-body">Book <a href="cloud-training.html" class="govuk-link"> cloud training</a>
-                for you or your team through our cloud providers platforms.</p>
-            </div>
-
-            <div style="padding-bottom: 15px;" class="govuk-grid-column-one-quarter">
-              <h2 class="govuk-heading-m">Guidance</h2>
-              <p class="govuk-body">View bespoke Home Office <a href="cloud-guidance.html" class="govuk-link"> cloud
-                  guidance</a> for AWS and Microsoft Azure services.</p>
-            </div>
-
-            <div style="padding-bottom: 15px;" class="govuk-grid-column-one-quarter">
-              <h2 class="govuk-heading-m">Access</h2>
-              <p class="govuk-body">View <a href="cloud-services.html" class="govuk-link">cloud services</a>
-                including IAM requests and Home Office sandboxes.</p>
-            </div>
-
-            <div style="padding-bottom: 15px;" class="govuk-grid-column-one-quarter">
-              <h2 class="govuk-heading-m">Support</h2>
-              <p class="govuk-body">View <a href="cloud-support.html" class="govuk-link"> cloud support</a> for Cloud
-                Vending Team support, AWS and Azure support and FAQs.</p>
-            </div>
-          </div>
-
-          <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+        <main id="main-content" class="app-content" role="main">
 
           <div class="govuk-grid-row">
-            <div class="govuk-grid-column-two-thirds" style="padding-top: 35px;">
-              <h2 class="govuk-heading-l">Cloud Vending Team</h2>
 
-              <p class="govuk-body">This service has been created by the Cloud Vending Team and it is replacing the
-                Cloud Vending Team confluence area. We are an agile team based in Manchester and Croydon.</p>
-
-              <p class="govuk-body">Our roles in the Home Office include:</p>
-              <ul class="govuk-list govuk-list--bullet">
-                <li>governing the use of cloud across the department</li>
-                <li>enabling teams to access the cloud and ensure that cloud accounts are secured and monitored</li>
-                <li>provide support and guidance to make better use of Cloud services from our cloud providers, AWS &
-                  Azure</li>
-              </ul>
-
-              <p class="govuk-body">This is a live service, and we will be updating and improving the service regularly.
-                For any other queries or support you need that hasn't been included on this service please contact: <a
-                  href="mailto:public.cloud@homeoffice.gov.uk">public.cloud@homeoffice.gov.uk</a>.</p>
+            <div class="govuk-breadcrumbs ">
+              <ol class="govuk-breadcrumbs__list">
+                <li class="govuk-breadcrumbs__list-item">
+                  <a class="govuk-breadcrumbs__link" href="/">Home</a>
+                </li>
+                <li class="govuk-breadcrumbs__list-item">
+                  <a class="govuk-breadcrumbs__link" href="cloud-guidance.html">Cloud guidance</a>
+                </li>
+                <li class="govuk-breadcrumbs__list-item">
+                  <a class="govuk-breadcrumbs__link" href="tagging-standards.html">Tagging standards</a>
+                </li>
+              </ol>
             </div>
 
-            <div class="govuk-grid-column-one-third">
-              <img style="border: none; padding: none; max-width: 200px;" src="images/turtle_sticker.svg"
-                alt="Cloud Vending Team Logo">
+            <span class="govuk-caption-xl">Operational excellence</span>
+            <h1 class="govuk-heading-xl">Tagging standards</h1>
+
+            <p class="govuk-body">This content explains:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+              <li><a href="#tag_explanation" class="govuk-link">what a tag is</a></li>
+              <li><a href="#tag_standard" class="govuk-link">why we want a tagging standard</a></li>
+              <li><a href="#HO_tags" class="govuk-link">Home Office mandatory tags</a></li>
+              <li><a href="#terraform" class="govuk-link">Terraform example</a></li>
+            </ul>
+
+            <!-- Hidden back to nav link </a> -->
+            <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <h2 id="tag_explanation" class="govuk-heading-l">What is a tag?</h2>
+            <p class="govuk-body">A tag is a label that you assign to an AWS resource. Each tag consists of a key and
+              value, both of which you define for each resource, and each tag key can have only one value. You can use
+              tags to organize your resources, and cost allocation tags to track your AWS costs on a detailed level.
+              Tags enable you to categorise your AWS resources in different ways. For example, by purpose, owner,
+              environment or other criteria.</p>
+            <p class="govuk-body">Tag keys are case sensitive. Some examples are CostCenter, Environment, or Project.
+              Tag values are also case sensitive. Some examples are 111122223333 or Production.</p>
+            <p class="govuk-body">You can add, change, or remove tags one resource at a time from each resource’s
+              service console, service API, or the AWS CLI. Tags identify who owns the resource and the environment
+              where it is used. They also provide additional information and context about that specific resource.</p>
+
+            <h3 class="govuk-heading-m">AWS best practices</h3>
+            <p class="govuk-body">It's always best to incorporate AWS best practice when creating a tagging strategy.
+            </p>
+
+            <p class="govuk-body">Some examples are:</p>
+            <ul class="govuk-list govuk-list--bullet">
+              <li>
+                do not store personally identifiable information (PII) or other confidential or sensitive information in
+                tags
+              </li>
+              <li>
+                use a standardised, case-sensitive format for tags, and apply it consistently across all resource types
+              </li>
+              <li>
+                consider tag guidelines that support multiple purposes, like managing resource access control, cost
+                tracking, automation, and organization
+              </li>
+              <li>
+                use too many tags rather than too few tags
+              </li>
+            </ul>
+
+            <!-- Hidden back to nav link </a> -->
+            <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <h2 id="tag_standard" class="govuk-heading-l">Why do we want a tagging standard?</h2>
+
+            <p class="govuk-body">The Cloud Vending Team want to be able to track each resource back to the
+              owner/department or project. Having a set of mandatory tags on every resource (case sensitive) makes it
+              uniform, professional and searchable. It will also help when we need to search through logs to identify a
+              resource.</p>
+
+            <h3 class="govuk-heading-m">Current problems:</h3>
+            <ul class="govuk-list govuk-list--bullet">
+              <li>
+                there is no governance on what tags are used because each department has control, and this makes it
+                difficult to trace
+              </li>
+              <li>
+                it is difficult for billing to accurately charge back to each department for their usage
+              </li>
+              <li>
+                it is difficult to provide support; for example, if we identify an underutilised EC2 instance without
+                clear tags, it makes it difficult to find the department responsible
+              </li>
+              <li>
+                the Home Office have too many tag keys and there are different variations of the same tag e.g. there are
+                25 tags of 'Cost Centre'
+              </li>
+            </ul>
+
+            <!-- Hidden back to nav link </a> -->
+            <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <h2 id="HO_tags" class="govuk-heading-l">Home Office Mandatory tags</h2>
+            <p class="govuk-body">We have contacted product owners of Amazon Web Services (AWS) and Microsoft Azure to
+              find out what tags they have used on their current resources. We have compiled a list of mandatory tags to
+              implement across the whole estate. It's important to note that AWS have limited the number of tags per
+              resource to 50 tags, while Azure have limited to 15. We were mindful of this and taken into account future
+              expansion of Azure support.</p>
+
+            <h3 class="govuk-heading-m">Tag key</h3>
+
+            <div class="govuk-accordion" data-module="govuk-accordion" id="accordion-default">
+
+              <div class="govuk-accordion__section ">
+                <div class="govuk-accordion__section-header">
+                  <h2 class="govuk-accordion__section-heading">
+                    <span class="govuk-accordion__section-button" id="accordion-default-heading-1">
+                      COST_CENTRE
+                    </span>
+                  </h2>
+                </div>
+                <div id="accordion-default-content-1" class="govuk-accordion__section-content"
+                  aria-labelledby="accordion-default-heading-1">
+                  <p class='govuk-body'>This tag is used to allocate costs to:</p>
+                  <ul class="govuk-list govuk-list--bullet">
+                    <li>tag formatting - "0000000" 8 numeric characters</li>
+                    <li>example tag values - 01815042</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="govuk-accordion__section ">
+                <div class="govuk-accordion__section-header">
+                  <h2 class="govuk-accordion__section-heading">
+                    <span class="govuk-accordion__section-button" id="accordion-default-heading-2">
+                      ENV
+                    </span>
+                  </h2>
+                </div>
+                <div id="accordion-default-content-2" class="govuk-accordion__section-content"
+                  aria-labelledby="accordion-default-heading-2">
+                  <p class='govuk-body'>Environment name standards e.g. "prod", "dev":</p>
+                  <ul class="govuk-list govuk-list--bullet">
+                    <li>tag formatting - lowercase alphanumerical </li>
+                    <li>example tag values - "prod" or "dev" or "test" or "sit" or "qat" or "sandbox"</li>
+                </div>
+              </div>
+
+              <div class="govuk-accordion__section ">
+                <div class="govuk-accordion__section-header">
+                  <h2 class="govuk-accordion__section-heading">
+                    <span class="govuk-accordion__section-button" id="accordion-default-heading-3">
+                      ID
+                    </span>
+                  </h2>
+                </div>
+                <div id="accordion-default-content-3" class="govuk-accordion__section-content"
+                  aria-labelledby="accordion-default-heading-3">
+                  <p class='govuk-body'>Considerations are:</p>
+                  <ul class="govuk-list govuk-list--bullet">
+                    <li>tag formatting - numerical</li>
+                    <li>example tag values - "01"</li>
+                </div>
+              </div>
+
+              <div class="govuk-accordion__section ">
+                <div class="govuk-accordion__section-header">
+                  <h2 class="govuk-accordion__section-heading">
+                    <span class="govuk-accordion__section-button" id="accordion-default-heading-4">
+                      NAME
+                    </span>
+                  </h2>
+                </div>
+                <div id="accordion-default-content-4" class="govuk-accordion__section-content"
+                  aria-labelledby="accordion-default-heading-4">
+                  <p class='govuk-body'>This is a programmatic tag joining up 4 user defined tags in order to produce a
+                    unique tag reference:</p>
+                  <ul class="govuk-list govuk-list--bullet">
+                    <li>tag formatting - programmatic "(PROJECTID_ENV_SERVICENAME_ID)"</li>
+                    <li>example tag values - "publiccloud_prod_backupdb_01"</li>
+                </div>
+              </div>
+
+              <div class="govuk-accordion__section ">
+                <div class="govuk-accordion__section-header">
+                  <h2 class="govuk-accordion__section-heading">
+                    <span class="govuk-accordion__section-button" id="accordion-default-heading-4">
+                      CREATED_BY
+                    </span>
+                  </h2>
+                </div>
+                <div id="accordion-default-content-4" class="govuk-accordion__section-content"
+                  aria-labelledby="accordion-default-heading-4">
+                  <p class='govuk-body'>This is a Poise ID or digital username:</p>
+                  <ul class="govuk-list govuk-list--bullet">
+                    <li>tag formatting - lowercase alphanumeric (Poise ID only)</li>
+                    <li>example tag values - "mussas1"</li>
+                </div>
+              </div>
+
+              <div class="govuk-accordion__section ">
+                <div class="govuk-accordion__section-header">
+                  <h2 class="govuk-accordion__section-heading">
+                    <span class="govuk-accordion__section-button" id="accordion-default-heading-4">
+                      PROJECT_ID
+                    </span>
+                  </h2>
+                </div>
+                <div id="accordion-default-content-4" class="govuk-accordion__section-content"
+                  aria-labelledby="accordion-default-heading-4">
+                  <p class='govuk-body'>Considerations are:</p>
+                  <ul class="govuk-list govuk-list--bullet">
+                    <li>tag formatting - lowercase alphanumeric (Poise ID only)</li>
+                    <li>example tag values - "public_cloud" "service_now"</li>
+                </div>
+              </div>
+
+              <div class="govuk-accordion__section ">
+                <div class="govuk-accordion__section-header">
+                  <h2 class="govuk-accordion__section-heading">
+                    <span class="govuk-accordion__section-button" id="accordion-default-heading-4">
+                      SERVICE_NAME
+                    </span>
+                  </h2>
+                </div>
+                <div id="accordion-default-content-4" class="govuk-accordion__section-content"
+                  aria-labelledby="accordion-default-heading-4">
+                  <p class='govuk-body'>This Normally the service tag is being applied on a resource, whether it's
+                    Backup Service or a Bastion Host:</p>
+                  <ul class="govuk-list govuk-list--bullet">
+                    <li>tag formatting - lowercase alphanumeric</li>
+                    <li>example tag values "backupdb" "proxy1"</li>
+                </div>
+              </div>
+
+              <div class="govuk-accordion__section ">
+                <div class="govuk-accordion__section-header">
+                  <h2 class="govuk-accordion__section-heading">
+                    <span class="govuk-accordion__section-button" id="accordion-default-heading-4">
+                      REGION
+                    </span>
+                  </h2>
+                </div>
+                <div id="accordion-default-content-4" class="govuk-accordion__section-content"
+                  aria-labelledby="accordion-default-heading-4">
+                  <p class='govuk-body'>We should only be building resources in eu-west-2:</p>
+                  <ul class="govuk-list govuk-list--bullet">
+                    <li>tag formatting - lowercase alphanumeric (Poise ID only)</li>
+                    <li>example tag values - "eu-west-2"</li>
+                </div>
+              </div>
+
+              <!-- Hidden back to nav link </a> -->
+              <a href="#page-content" class="govuk-skip-link">Back to start of navigation tree</a>
+
+              <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+              <h2 id="terraform" class="govuk-heading-l">Terraform example</h2>
+
+              <p class="govuk-body">The Terraform tags module can be included as follows:</p>
+
+              <div class="app-example__code">
+                <pre data-module="app-copy" tabindex="0"><code class="hljs html"> <span class="hljs-attr">module</span> <span class="hljs-string">&quot;tags&quot;</span><span> {</span>
+                <span class="hljs-attr">environment</span> = <span class="hljs-attr">var.environment</span>
+                <span class="hljs-attr">project_service</span> = <span class="hljs-attr">var.project_service</span>
+                <span class="hljs-tag">source</span> = <span class="hljs-string">&quot;git::ssh://git-codecommit.eu-west-2.amazonaws.com/v1/repos/terraform-module-aws-tags&quot;</span>
+                <span>}</span>
             </div>
+
+            <p class="govuk-body">NOTE - rather than expose SSH keys within code make use of ssh-agent to securely store
+              the key for use with Terraform.</p>
+
+            <p class="govuk-body">Follow the instructions listed under <a
+                href="https://docs.aws.amazon.com/codecommit/latest/userguide/setting-up-ssh-unixes.html">Step 3:
+                Configure Credentials on Linux, macOs, or Unix</a>. Then add the new identity to ssh-agent as follows:
+            </p>
+
+            <div class="app-example__code">
+              <pre data-module="app-copy" tabindex="0"><code class="hljs html"> <span class="hljs-attr">$</span> <span class="hljs-string">eval</span><span> $ (</span><span class="hljs-string">ssh</span>-agent -s) </span><span class="hljs-string">ssh</span>-add codecommit-rsa
+            </div>
+
+            <p class="govuk-body">Within your code you can add further custom tags:</p>
+
+            <div class="app-example__code">
+              <pre data-module="app-copy" tabindex="0"><code class="hljs html"> <span class="hljs-attr">resource</span> <span class="hljs-string">&quot;aws_ecr_repository&quot;</span> <span class="hljs-string">&quot;ecr&quot;</span><span> {</span>
+                <span class="hljs-attr">for_each</span> = <span class="hljs-tag">local</span><span class="hljs-attr">.repositories</span>
+                <span class="hljs-attr">name</span> = <span class="hljs-attr">each.key</span>
+                <span class="hljs-attr">image_tag_mutability</span> = <span class="hljs-string">&quot;MUTABLE&quot;</span> 
+
+                <span class="hljs-attr">image_scanning_configuration</span> <span> {</span>
+                  <span class="hljs-attr">scan_on_push</span> = <span class="hljs-attr">var.scan_images_on_push</span>
+                <span>}</span>
+
+                <span class="hljs-attr">tags</span> = <span class="hljs-attr">merge</span> <span> (</span>
+                  <span class="hljs-attr">map</span> <span> (</span>
+                    <span class="hljs-string">&quot;TYPE&quot;</span>, <span class="hljs-attr">var.</span><span class="hljs-tag">type</span>,
+                    <span class="hljs-string">&quot;SECONDTAG&quot;</span>, <span class="hljs-attr">var.secondtag</span>
+                  <span>),</span>
+                  <span class="hljs-attr">module.tags.tags</span>
+                <span>)</span>
+              <span>}</span>
+            </div>
+
+            <p class="govuk-body">In the code block above the mandatory tags from the module are merged with a custom tag, TYPE, detailing the type of service being provisioned.</p>
+
+            <!-- Hidden back to nav link </a> -->
+            <a href="#page-content" class="govuk-skip-link">Back to start of navigation tree</a>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <a href="#top" class="govuk-link">Back to top</a>
           </div>
-
-          <!-- Hidden back to nav link </a> -->
-          <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
-
-          <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
-
-          <a href="#top" class="govuk-link">Back to top</a>
 
         </main>
 
       </div>
-      <!-- End of main body -->
-
-      <!-- <div class="app-back-to-top app-back-to-top--hidden" data-module="app-back-to-top">
+      
+      <div class="app-back-to-top app-back-to-top--hidden" data-module="app-back-to-top">
         <a class="govuk-link govuk-link--no-visited-state app-back-to-top__link" href="#top">
           <svg role="presentation" focusable="false" class="app-back-to-top__icon" xmlns="http://www.w3.org/2000/svg"
             width="13" height="17" viewBox="0 0 13 17">
             <path fill="currentColor" d="M6.5 0L0 6.5 1.4 8l4-4v12.7h2V4l4.3 4L13 6.4z"></path>
           </svg>Back to top
         </a>
-      </div> -->
+      </div>
 
     </div>
 
@@ -738,12 +1048,10 @@
                 </li>
               </ul>
           </div>
-
         </div>
       </div>
     </footer>
     <!-- End of footer -->
-
 
   </div>
 
@@ -754,44 +1062,6 @@
   <!--[if lt IE 9]>
     <script src="/javascripts/application-ie8-5a2cfeaee9daeca7d49c5835fd89f009.js"></script>
   <![endif]-->
-
-  <script>
-    function headingSearchFunction() {
-      var input, filter, h3, i, txtValue;
-      input = document.getElementById("headingSearch");
-      filter = input.value.toUpperCase();
-      h3 = document.getElementByTagName("headings");
-      for (i = 0; i < h3.length; i++) {
-        h3 = h3[i].getElementsByTagName("h3")[0];
-        txtValue = h3.textContent || h3.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          h3[i].style.display = "";
-        } else {
-          h3[i].style.display = "none";
-        }
-      }
-    }
-  </script>
-
-  <!-- <script>
-function myFunction() {
-    var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
-    li = ul.getElementsByTagName("li");
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        txtValue = a.textContent || a.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
-        } else {
-            li[i].style.display = "none";
-        }
-    }
-}
-</script> -->
-
 
 </body>
 

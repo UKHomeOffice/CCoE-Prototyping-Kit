@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template no-js">
+
+<head>
+  <meta charset="utf-8">
+  <title>Shared responsibility model - Cloud Centre of Excellence</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c0c">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="/assets/images/favicon.ico" type="image/x-icon">
+  <link rel="mask-icon" href="/assets/images/govuk-mask-icon.svg" color="#0b0c0c">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/govuk-apple-touch-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/images/govuk-apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/govuk-apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" href="/assets/images/govuk-apple-touch-icon.png">
+
+  <meta name="og:title" content="Layout">
+  <meta name="description" content="Organise the layout of the page into blocks">
+  <meta name="og:description" content="Organise the layout of the page into blocks">
+  <link rel="canonical" href="https://design-system.service.gov.uk/styles/layout/" />
+  <!--[if lt IE 9]>
+    <link href="/stylesheets/main-ie8-070b6278fbfcc7f254a5f4f3b92e38c3.css" rel="stylesheet" media="all" />
+    <script src="/javascripts/head-ie8-a371085ca251931cc9b5360c7da328f6.js"></script>
+  <![endif]-->
+  <!--[if !IE 8]><!-->
+  <link href="./public/stylesheets/styles.css" rel="stylesheet" media="all" />
+  <!--<![endif]-->
+  <script src="./javascript/script.js"></script>
+
+  <meta property="og:image" content="https://design-system.service.gov.uk/assets/images/govuk-opengraph-image.png">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEVRNCP64M"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEVRNCP64M');
+  </script>
+
+</head>
+
+<body class="govuk-template__body ">
+  <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+  <a href="#main-content" class="govuk-skip-link">Skip to main content</a>
+
+  <div class="app-pane app-pane--enabled" id="top">
+    <header class="govuk-header app-header" role="banner" data-module="govuk-header">
+      <div class="govuk-header__container app-width-container app-header__container">
+        <div class="govuk-header__logo app-header__logo">
+          <a href="/" class="govuk-header__link govuk-header__link--homepage">
+            <span class="govuk-header__product-name">
+              Home Office - Cloud Centre of Excellence (CCoE)
+            </span>
+          </a>
+        </div>
+        <!-- <div class="app-site-search" data-module="app-search"
+          data-search-index="/search-index-e675b1e463f677c88b84bbabe62f6038.json">
+          <label class="govuk-visually-hidden" for="app-site-search__input">Search Design system</label>
+          <a class="app-site-search__link govuk-link" href="sitemap.html">Sitemap</a>
+        </div> -->
+        <div class="app-header-mobile-nav-toggler-wrapper">
+          <button id="app-mobile-nav-toggler"
+            class="govuk-button app-header-mobile-nav-toggler js-app-mobile-nav-toggler" aria-controls="app-mobile-nav">
+            Menu
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Start of reflow nav -->
+    <nav id="app-mobile-nav" class="app-mobile-nav js-app-mobile-nav" role="navigation">
+      <ul class="app-mobile-nav__list">
+
+        <li>
+          <div class="app-mobile-nav-subnav-toggler">
+            <a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler"
+              href="cloud-training.html">
+              > Cloud training
+            </a>
+          </div>
+
+          <ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav" aria-label="Cloud training">
+            <li class="app-mobile-nav__subnav-item">
+              <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="cloud-training.html">
+                Cloud training overview
+              </a>
+            </li>
+
+            <li>
+
+              <h4 class="app-mobile-nav__theme">Amazon Web Services (AWS) training</h4>
+
+              <ul class="app-mobile-nav__list">
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="aws-embrace.html">
+                    AWS embrace
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="role-based-training.html">
+                    Role based training
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="data.html">
+                    - Data
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="it-operations.html">
+                    - IT operations
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="product-and-delivery.html">
+                    - Product and delivery
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="quality-assurance-testing.html">
+                    - Quality assurance testing (QAT)
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="technical.html">
+                    - Technical
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="user-centred-design.html">
+                    - User-centred design
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="aws-training-and-learning.html">
+                    AWS training and learning
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="aws-certifications.html">
+                    AWS certifications
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+
+              <h4 class="app-mobile-nav__theme">Microsoft Azure training</h4>
+
+              <ul class="app-mobile-nav__list">
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="enterprise-skills-initiative.html">
+                    Enterprise Skills Initiative (ESI)
+                  </a>
+                </li>
+
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="cloud-skills-challenge.html">
+                    Cloud skills challenge
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="azure-certifications.html">
+                    Microsoft Azure certifications
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li>
+          <div class="app-mobile-nav-subnav-toggler app-mobile-nav__subnav-toggler--active">
+            <a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler"
+              href="cloud-guidance.html">
+              > Cloud guidance
+            </a>
+          </div>
+
+          <ul
+            class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav app-mobile-nav__subnav--active"
+            aria-label="Cloud guidance">
+            <li class="app-mobile-nav__subnav-item">
+              <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="cloud-guidance.html">
+                Cloud guidance overview
+              </a>
+            </li>
+
+            <li>
+
+              <h4 class="app-mobile-nav__theme">Operational excellence</h4>
+
+              <ul class="app-mobile-nav__list">
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="operational-excellence-pillar.html">
+                    Operational excellence pillar
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="aws-organisations.html">
+                  Amazon Web Services (AWS) organisations</a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="organisational-unit-structure.html">
+                    - Organisational unit structure
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="tagging-standards.html">
+                    Tagging standards
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="trusted-advisor.html">
+                    AWS Trusted Advisor
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+
+              <h4 class="app-mobile-nav__theme">Security</h4>
+
+              <ul class="app-mobile-nav__list">
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="security-pillar.html">
+                    Security pillar
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item app-mobile-nav__subnav-item--current">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="shared-responsibility-model.html">
+                    Shared responsibility model
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="access-keys.html">
+                    Access keys
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="guardrails.html">
+                    Guardrails
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="preventive-guardrails.html">
+                    - Preventive guardrails
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="detective-guardrails.html">
+                    - Detective guardrails
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="amazon-s3.html">
+                    Amazon S3
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+
+              <h4 class="app-mobile-nav__theme">Reliability</h4>
+
+              <ul class="app-mobile-nav__list">
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="reliability-pillar.html">
+                    Reliability pillar
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="aws-enterprise-support.html">
+                    AWS enterprise support
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+
+              <h4 class="app-mobile-nav__theme">Performance efficiency</h4>
+
+              <ul class="app-mobile-nav__list">
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="performance-efficiency-pillar.html">
+                    Performance efficiency pillar
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+
+              <h4 class="app-mobile-nav__theme">Cost optimisation</h4>
+
+              <ul class="app-mobile-nav__list">
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="cost-optimisation-pillar.html">
+                    Cost optimisation pillar
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="cost-optimisation-standards.html">
+                    Cost optimisation standards
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="recharging-and-finance-guidance.html">
+                    Recharging and finance guidance
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li>
+          <div class="app-mobile-nav-subnav-toggler">
+            <a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler"
+              href="cloud-services.html">
+              > Cloud services
+            </a>
+          </div>
+
+          <ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav " aria-label="Cloud services">
+            <li class="app-mobile-nav__subnav-item">
+              <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="cloud-services.html">
+                Cloud services overview
+              </a>
+            </li>
+
+            <li>
+
+              <h4 class="app-mobile-nav__theme">AWS Identity and Access Management (IAM) account requests</h4>
+
+              <ul class="app-mobile-nav__list">
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="who-can-create-an-aws-iam-ticket.html">
+                    Who can create an AWS IAM ticket
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="account-roles-and-approvers.html">
+                    Account roles and approvers
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="how-to-avoid-common-delays.html">
+                    How to avoid common delays
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="how-to-create-an-aws-iam-ticket.html">
+                    How to create an AWS IAM ticket
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="new-user-next-steps.html">
+                    New user next steps
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+
+              <h4 class="app-mobile-nav__theme">Amazon Web Services (AWS) Sandbox</h4>
+
+              <ul class="app-mobile-nav__list">
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="sandbox-best-practices.html">
+                    Sandbox best practices
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="sandbox-access.html">
+                    Sandbox access
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li>
+          <div class="app-mobile-nav-subnav-toggler">
+            <a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler"
+              href="cloud-services.html">
+              > Cloud support
+            </a>
+          </div>
+
+          <ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav " aria-label="Cloud services">
+            <li class="app-mobile-nav__subnav-item">
+              <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="cloud-support.html">
+                Cloud support overview
+              </a>
+            </li>
+
+            <li>
+
+              <h4 class="app-mobile-nav__theme">Cloud support</h4>
+
+              <ul class="app-mobile-nav__list">
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="cloud-vending-support.html">
+                    Cloud Vending Team support
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="aws-support.html">
+                    Amazon Web Services (AWS) support
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="azure-support.html">
+                    Microsoft Azure support
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="faq.html">
+                    FAQ
+                  </a>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </li>
+
+      </ul>
+    </nav>
+    <!-- End of reflow nav -->
+
+    <div class="app-phase-banner__wrapper">
+
+      <div class="govuk-phase-banner app-phase-banner app-width-container">
+        <p class="govuk-phase-banner__content">
+          <strong class="govuk-tag govuk-phase-banner__content__tag">
+            alpha
+          </strong>
+          <span class="govuk-phase-banner__text">
+            This is a new service – your <a class="govuk-link" href="feedback.html">feedback</a> will help us to
+            improve it.
+          </span>
+        </p>
+      </div>
+
+    </div>
+
+    <nav class="app-navigation govuk-clearfix">
+      <ul class="app-navigation__list app-width-container">
+
+        <li class="app-navigation__list-item">
+          <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-training.html"
+            data-topnav="Styles">Cloud training</a>
+        </li>
+
+        <li class="app-navigation__list-item app-navigation__list-item--current">
+          <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-guidance.html"
+            data-topnav="Components">Cloud guidance</a>
+        </li>
+
+        <li class="app-navigation__list-item">
+          <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-services.html"
+            data-topnav="Patterns">Cloud services</a>
+        </li>
+
+        <li class="app-navigation__list-item">
+          <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-support.html"
+            data-topnav="Patterns">Cloud support</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="app-pane__body app-width-container">
+      <div class="app-pane__subnav">
+        <nav class="app-subnav">
+
+          <h4 id="side-nav" class="app-subnav__theme">Operational excellence</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="operational-excellence-pillar.html">Operational excellence pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="aws-organisations.html">> Amazon
+                Web Services (AWS) organisations</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="tagging-standards.html">Tagging
+                standards</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="trusted-advisor.html">AWS
+                Trusted Advisor</a>
+            </li>
+          </ul>
+
+
+          <h4 class="app-subnav__theme">Security</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="security-pillar.html">Security
+                pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item app-subnav__section-item--current">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="shared-responsibility-model.html">Shared responsibility model</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="access-keys.html">Access
+                keys</a>
+            </li>
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="guardrails.html">>
+                Guardrails</a>
+            </li>
+            <li class="app-subnav__section-item">
+              <!-- <a class="rotate">></a> -->
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="amazon-s3.html">Amazon S3</a>
+            </li>
+          </ul>
+
+          <h4 class="app-subnav__theme">Reliability</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="reliability-pillar.html">Reliability pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="aws-enterprise-support.html">AWS
+                enterprise support</a>
+            </li>
+          </ul>
+
+          <h4 class="app-subnav__theme">Performance efficiency</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="performance-efficiency-pillar.html">Performance efficiency pillar</a>
+            </li>
+          </ul>
+
+          <h4 class="app-subnav__theme">Cost optimisation</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="cost-optimisation-pillar.html">Cost
+                optimisation pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="cost-optimisation-standards.html">Cost
+                optimisation standards</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="recharging-and-finance-guidance.html">Recharging and finance guidance</a>
+            </li>
+          </ul>
+
+        </nav>
+
+      </div>
+
+
+      <!-- Start of main body -->
+      <div class="app-pane__content">
+        <main id="main-content" class="app-content" role="main">
+
+          <div class="govuk-grid-row">
+
+            <div class="govuk-breadcrumbs ">
+              <ol class="govuk-breadcrumbs__list">
+                <li class="govuk-breadcrumbs__list-item">
+                  <a class="govuk-breadcrumbs__link" href="/">Home</a>
+                </li>
+                <li class="govuk-breadcrumbs__list-item">
+                  <a class="govuk-breadcrumbs__link" href="cloud-guidance.html">Cloud guidance</a>
+                </li>
+                </li>
+                <li class="govuk-breadcrumbs__list-item">
+                  <a class="govuk-breadcrumbs__link" href="shared-responsibility-model.html">Shared responsibility
+                    model</a>
+                </li>
+              </ol>
+            </div>
+
+            <span class="govuk-caption-xl">Security</span>
+
+            <h1 class="govuk-heading-xl">Shared responsibility model</h1>
+
+            <p class="govuk-body">This content explains:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+              <li><a href="#srm_explanation" class="govuk-link">what the cloud shared responsibility model is</a></li>
+              <li><a href="#aaS" class="govuk-link">Infrastructure, Platform and Software as a service (IaaS, PaaS,
+                  SaaS) explanations</a></li>
+              <li><a href="#responsibility" class="govuk-link">the responsibility of the Home Office and Cloud
+                  Providers</a></li>
+              <li><a href="#project" class="govuk-link">what this information means for your project</a></li>
+            </ul>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <h2 id="srm_explanation" class="govuk-heading-l">What is the shared responsibility model?</h2>
+            <p class="govuk-body">Cloud Security is fundamentally based on what public cloud providers term as the
+              Shared Responsibility Model (SRM) between customers (Home Office) and cloud providers (AWS and Azure). All
+              organisations using the cloud sign up to this model. The SRM defines who is responsible for what on
+              the cloud. The Home Office has responsibility for the security in the cloud and this covers
+              how we use the cloud. For example, the encryption of data we store in the cloud. While the cloud
+              providers has responsibility for the security of the cloud, for example the hardware used to
+              store the data.</p>
+
+            <!-- Hidden back to nav link </a> -->
+            <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <h2 id="aaS" class="govuk-heading-l">Infrastructure, Platform and Software as a service (IaaS, PaaS, SaaS)
+            </h2>
+            <div>
+              <p class="govuk-body">Cloud services can be split between [1] IaaS, [2] PaaS, [3] SaaS.</p>
+              <ul class="govuk-list govuk-list--number">
+                <li>Infrastructure as a Service (IaaS) are services provided within the cloud where the Home
+                  Office operates the infrastructure but does not control the physical infrastructure.
+                  This gives users the most control over services.</li>
+                <li>Platform as a Service/Container Services (PaaS/CS) removes the need for organisations to
+                  manage the underlying infrastructure.
+                  Cloud providers are responsible for the platform and some application management as well as the
+                  security of the operating systems and networks (except for Firewall configuration, for example
+                  security groups).</li>
+                <li>Software as a Service/Abstract Services (SaaS/AS) are cloud provided services where the
+                  customer has the fewest responsibilities to secure the service.
+                  The cloud provider is responsible for the security of network, platform, OS and infrastructure. The
+                  Home Office are responsible for managing who has access to the data and that we are using the
+                  encryption services.
+                  These responsibilities are split over several Home Office teams.</li>
+              </ul>
+            </div>
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <h2 id="responsibility" class="govuk-heading-l">Home Office and Cloud Providers responsibility table</h2>
+            <table class="govuk-table">
+              <span class="govuk-caption-m">The table below shows who has the responsibility between the Home Office
+                (HO) and Cloud Providers (CP) across PaaS, SaaS and IaaS. It also shows cloud features responsibility
+                across different business areas (e.g. Enterprise Services teams), Platforms (e.g. EBSA, ACP, LECP),
+                Portfolios (e.g. BICS, PPPT) and HO capabilities such as CSOC/ITOC and HOCS. It is noted that individual
+                areas will have a slightly different split of responsibilities, and this should be outlined within
+                security and service wrappers.</span>
+              <thead class="govuk-table__head">
+                <tr class="govuk-table__row">
+                  <th scope="col" class="govuk-table__header">Responsibility</th>
+                  <th scope="col" class="govuk-table__header">SaaS</th>
+                  <th scope="col" class="govuk-table__header">PaaS</th>
+                  <th scope="col" class="govuk-table__header">IaaS</th>
+                  <th scope="col" class="govuk-table__header">Business area(s)</th>
+                </tr>
+              </thead>
+              <tbody class="govuk-table__body">
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">End point and devices</th>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Enterprise Services</td>
+                </tr>
+                <th scope="row" class="govuk-table__header">Access control management (ACM)</th>
+                <td class="govuk-table__cell">HO</td>
+                <td class="govuk-table__cell">HO</td>
+                <td class="govuk-table__cell">HO</td>
+                <td class="govuk-table__cell">Enterprise Services</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Tagging</th>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Enterprise Services</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Common Infrastructure as Code</th>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Enterprise Services</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Single view for costs</th>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Enterprise Services</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Cost optimisation</th>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Enterprise Services</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Billing</th>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Enterprise Services</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Root account management</th>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Enterprise Services</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Account identities</th>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Enterprise Services / Platforms</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Access controls</th>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Enterprise Services / Platforms</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Access and authentication in cloud</th>
+                  <td class="govuk-table__cell">HO / CP</td>
+                  <td class="govuk-table__cell">HO / CP</td>
+                  <td class="govuk-table__cell">HO / CP</td>
+                  <td class="govuk-table__cell">Enterprise Services / Platforms</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Incident management</th>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Enterprise Services / Cloud Ops</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Monitoring usage and user audit</th>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Enterprise Services / Platforms / Portfolios /</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Network controls</th>
+                  <td class="govuk-table__cell">CP</td>
+                  <td class="govuk-table__cell">HO / CP</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Platforms</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Operating system</th>
+                  <td class="govuk-table__cell">CP</td>
+                  <td class="govuk-table__cell">HO / CP</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Platforms</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Logging provision</th>
+                  <td class="govuk-table__cell">CP</td>
+                  <td class="govuk-table__cell">HO / CP</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Platforms</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Storage and encryption</th>
+                  <td class="govuk-table__cell">CP</td>
+                  <td class="govuk-table__cell">CP</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Platforms</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Kernel hardening</th>
+                  <td class="govuk-table__cell">CP</td>
+                  <td class="govuk-table__cell">CP</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Platforms</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Deployment</th>
+                  <td class="govuk-table__cell">HO / CP</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Platforms / Portfolios</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Web application security</th>
+                  <td class="govuk-table__cell">HO / CP</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Platforms / Portfolios</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Operations</th>
+                  <td class="govuk-table__cell">CP</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Platforms / Portfolios</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Customer data</th>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Portfolios</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Risk acceptance advice</th>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Portfolios / HOCS</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Security and monitoring</th>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">Cloud ops</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Standards and controls</th>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">HO</td>
+                  <td class="govuk-table__cell">All business areas</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Networking</th>
+                  <td class="govuk-table__cell">CP</td>
+                  <td class="govuk-table__cell">CP</td>
+                  <td class="govuk-table__cell">CP</td>
+                  <td class="govuk-table__cell">N/A</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Boot</th>
+                  <td class="govuk-table__cell">CP</td>
+                  <td class="govuk-table__cell">CP</td>
+                  <td class="govuk-table__cell">CP</td>
+                  <td class="govuk-table__cell">N/A</td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">Hardening</th>
+                  <td class="govuk-table__cell">CP</td>
+                  <td class="govuk-table__cell">CP</td>
+                  <td class="govuk-table__cell">CP</td>
+                  <td class="govuk-table__cell">N/A</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- Hidden back to nav link </a> -->
+            <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+
+            <!-- Start of Accordian -->
+            <h3 class="govuk-heading-m">Areas of responsibility explanations</h3>
+
+            <details class="govuk-details" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+                  Customer data
+                </span>
+              </summary>
+              <div class="govuk-details__text govuk-inset-text">
+                <p>This is any data that the Home Office stores within AWS, for example an Immigration
+                  application, advanced passenger information. Under the model this always remains the
+                  responsibility of the Home Office. The security of this data in the cloud is the responsibility
+                  of the portfolio using the cloud, however, other teams such as CSOC, platforms, Public Cloud,
+                  Networks & Infrastructure can assist by supporting security controls that allow more effective
+                  discharge of these responsibilities to mitigate the risks.</p>
+            </details>
+
+            <details class="govuk-details" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+                  End-points & Devices
+                </span>
+              </summary>
+              <div class="govuk-details__text govuk-inset-text">
+                <p>This is equipment that the Home Office uses or are used by our customers to connect to
+                  Home Office services in the cloud. The security of these remains the responsibility of the
+                  Device Owner (e.g., EUC&C within DDAT Enterprise Services, Supplier when using Supplier BYOCD or
+                  an individual in the case of our customers). It is the portfolio's responsibility to
+                  ensure that their risk owners are content with any risks related to end points and devices.</p>
+            </details>
+
+            <details class="govuk-details" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+                  Account Identities
+                </span>
+              </summary>
+              <div class="govuk-details__text govuk-inset-text">
+                <p>This is the identity used by HO users to access the public cloud. This is the responsibility of
+                  the Cloud Vending Team to manage on behalf of the Home Office.</p>
+            </details>
+
+            <details class="govuk-details" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+                  Access Controls
+                </span>
+              </summary>
+              <div class="govuk-details__text govuk-inset-text">
+                <p>These include policies, roles and permissions. The HO organisational wide Access Controls
+                  are the responsibility of the Cloud Vending Team to implement, managing risk on behalf of
+                  the risk owners (and will be set with conversations with portfolios and OCISO). Portfolios
+                  (account owners) retain responsibility of access controls for any specific roles they
+                  create within their accounts.</p>
+            </details>
+
+            <details class="govuk-details" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+                  Monitoring Usage and User Audit
+                </span>
+              </summary>
+              <div class="govuk-details__text govuk-inset-text">
+                <p>This includes system and protective monitoring of what services HO uses and an audit of which
+                  users have access to services. The responsibilities here sit across portfolios, CSOC and
+                  the Cloud Vending Team who can enable policies within the organisation to make this more
+                  straightforward. The business owner within the portfolio is responsible for how services are
+                  used.</p>
+            </details>
+
+            <details class="govuk-details" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+                  Web Application Security
+                </span>
+              </summary>
+              <div class="govuk-details__text govuk-inset-text">
+                <p>A broad term for the security posture of any web application deployed onto the public cloud.
+                  Responsibilities for web application security lie with the Home Office, except for
+                  container services.
+                </p>
+            </details>
+
+            <details class="govuk-details" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+                  Deployment
+                </span>
+              </summary>
+              <div class="govuk-details__text govuk-inset-text">
+                <p>The deployment of services used by HO in the cloud is the responsibility of individuals
+                  platforms and portfolios as this relates to their deployment of cloud services, and there
+                  are a range of deployment methodologies and tools in place within HO. The Cloud Vending Team
+                  are responsible for the deployment of new accounts and new users. The Cloud provider is
+                  responsible for the deployment of most functionality in SaaS and particularly serverless use
+                  case.</p>
+            </details>
+
+            <details class="govuk-details" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+                  Operations
+                </span>
+              </summary>
+              <div class="govuk-details__text govuk-inset-text">
+                <p>The operations of services used by the Home Office in the cloud is the responsibility of the
+                  platforms that use these services.</p>
+            </details>
+
+            <details class="govuk-details" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+                  Access and Authentication into the Cloud
+                </span>
+              </summary>
+              <div class="govuk-details__text govuk-inset-text">
+                <p>The identity service provided by the Cloud Provider, which is used to gain access and
+                  authenticate into the cloud and the cloud provider retains control over this identity service.
+                  The HO is responsible for use of this, through Account Identities and Access Controls
+                  above.
+                </p>
+            </details>
+
+            <details class="govuk-details" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+                  Network Controls
+                </span>
+              </summary>
+              <div class="govuk-details__text govuk-inset-text">
+                <p>Network controls such as firewalls, load balancers, DMZ, segregation securing access,
+                  monitoring etc. are the responsibility of the Home Office when running IaaS (e.g., EC2)
+                  and are the responsibility of platforms, networks & infrastructure and portfolios to undertake
+                  (the split in responsibility depends on the model within the accounts). The Cloud Vending Team can
+                  assist by
+                  implementing technically enforced policies and guidelines that prevent the network controls
+                  being too open, these will be defined in conversation with portfolios, OCISO and CSOC. Within
+                  the SaaS model the cloud provider retains responsibility of these controls - however, from an
+                  assurance perspective the Home Office should be appraised of what these controls are.</p>
+            </details>
+
+            <details class="govuk-details" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+                  Operating System
+                </span>
+              </summary>
+              <div class="govuk-details__text govuk-inset-text">
+                <p>Within SaaS tools this remains the responsibility of the cloud provider, who will patch
+                  and keep these up to date. Within most PaaS this is also true, however, within IaaS it is the
+                  responsibility of the Home Office to manage the OS and keep these up to date. This is the
+                  responsibility of the portfolio/platform to undertake this. On AWS this can be done using AMIs
+                  and the Cloud Vending Team can support this with technically enforced policies, monitoring and
+                  guidelines that can alert or prevent deployment of vulnerable OS.</p>
+            </details>
+
+            <details class="govuk-details" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+                  Logging Provision
+                </span>
+              </summary>
+              <div class="govuk-details__text govuk-inset-text">
+                <p>Cloud providers have several tools in place to assist with logging and the provision of logs
+                  for SaaS and PaaS is primarily the responsibility of the cloud provider, with the Home Office
+                  taking responsibility to ensure that these have been turned on and configured. The Cloud Vending Team
+                  may
+                  provide guidance and technical enforcement of logging across the estate through policies, but
+                  these will be agreed between portfolios, platforms, OCISO and CSOC. Note even in IaaS the Home
+                  Office can hook AWS logs generated on the infrastructure, e.g., VPC flow logs, API calls into
+                  CloudTrail, but other logs remain the responsibility of the portfolio or platform running the
+                  IaaS to provision and ensure these are protected.</p>
+            </details>
+
+            <details class="govuk-details" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+                  Storage & Encryption
+                </span>
+              </summary>
+              <div class="govuk-details__text govuk-inset-text">
+                <p>The physical data storage always remains the responsibility of the cloud provider. The
+                  encryption and configuration of databases on top is the responsibility of the Home Office
+                  portfolios and platforms that are using the cloud services. They can specify what
+                  encryption is in place and policies around data storage. There is an exception when using a SaaS
+                  service where the cloud provider manages the encryption and configuration of database also.</p>
+            </details>
+
+            <details class="govuk-details" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+                  Networking
+                </span>
+              </summary>
+              <div class="govuk-details__text govuk-inset-text">
+                <p>The physical networking within and out of a data centre is the responsibility of the cloud
+                  provider.</p>
+            </details>
+
+            <details class="govuk-details" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+                  Kernel Hardening
+                </span>
+              </summary>
+              <div class="govuk-details__text govuk-inset-text">
+                <p>Kernel hardening is a kernel configuration that mitigates any vulnerabilities or bugs within
+                  the kernel to prevent cyber security attacks. Where the Home Office deploys its own OS and
+                  devices it is the responsibility of HO to manage this and this would set with Portfolios
+                  and Platforms to do. Otherwise, this remains the responsibility of the cloud provider.</p>
+            </details>
+
+            <details class="govuk-details" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+                  Boot
+                </span>
+              </summary>
+              <div class="govuk-details__text govuk-inset-text">
+                <p>This is part of the physical infrastructure of the data centre and is always the responsibility
+                  of the cloud provider.</p>
+            </details>
+
+            <details class="govuk-details" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+                  Hardware
+                </span>
+              </summary>
+              <div class="govuk-details__text govuk-inset-text">
+                <p>The physical infrastructure within the data centre is always the responsibility of the cloud
+                  provider. The Home Office must ensure in line with the Security Policy Framework that they
+                  are content with the physical security of any supplier they use, which can be demonstrated
+                  through physical security reviews/audits often conducted by third party consultancies under the
+                  SOC 2 reports. The provider is also responsible for the virtualisation.</p>
+            </details>
+          </div>
+          <!-- Hidden back to nav link </a> -->
+          <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+          <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+          <h2 id="project" class="govuk-heading-l">What does the above mean for my project?</h2>
+
+          <p class="govuk-body">That depends on what service type you are using and where in the Home Office your
+            project is. If you are using IaaS, i.e. you are running and managing your own EC2 instances to do
+            something on your application, you will be responsible for significantly more security controls than if
+            you are using a HO Platform such as EBSA or ACP. The key thing to remember is that although your project
+            may not be directly responsible for the configuration and provision of cloud services you use from a data
+            protection and cyber security perspective your Senior Responsible Owner will be taking risks that are
+            mitigated by actions of other teams.</p>
+
+          <p class="govuk-body">The Cloud Vending Team is available to help with any questions and queries email: <a
+              href="mailto:public.cloud@homeoffice.gov.uk">public.cloud@homeoffice.gov.uk</a></p>
+
+          <!-- Hidden back to nav link </a> -->
+          <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+
+          <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+          <a href="#top" class="govuk-link">Back to top</a>
+
+      </div>
+
+      </main>
+
+    </div>
+
+    <!-- <div class="app-back-to-top app-back-to-top--hidden" data-module="app-back-to-top">
+        <a class="govuk-link govuk-link--no-visited-state app-back-to-top__link" href="#top">
+          <svg role="presentation" focusable="false" class="app-back-to-top__icon" xmlns="http://www.w3.org/2000/svg"
+            width="13" height="17" viewBox="0 0 13 17">
+            <path fill="currentColor" d="M6.5 0L0 6.5 1.4 8l4-4v12.7h2V4l4.3 4L13 6.4z"></path>
+          </svg>Back to top
+        </a>
+      </div> -->
+
+  </div>
+
+  <!-- Start of footer -->
+  <footer class="govuk-footer app-footer app-footer--full" role="contentinfo">
+    <div class="govuk-width-container app-width-container">
+      <div class="govuk-footer__navigation">
+
+        <div class="govuk-footer__section">
+          Built by the Cloud Vending Team, Home Office, DDaT
+        </div>
+
+        <div class="govuk-footer__section">
+          <ul class="govuk-footer__inline-list">
+            <ul class="govuk-footer__list govuk-footer__list--columns-2">
+              <li class="govuk-footer__list-item">
+                <a class="govuk-footer__link" href="accessibiliity-statement.html">
+                  Accessibility statement
+                </a>
+              </li>
+              <li class="govuk-footer__list-item">
+                <a class="govuk-footer__link" href="feedback.html">
+                  Feedback
+                </a>
+              </li>
+              <li class="govuk-footer__list-item">
+                <a class="govuk-footer__link" href="privacy-and-cookie-poilcy.html">
+                  Privacy and cookie policy
+                </a>
+              </li>
+              <li class="govuk-footer__list-item">
+                <a class="govuk-footer__link" href="mailto:public.cloud@homeoffice.gov.uk">
+                  public.cloud@homeoffice.gov.uk
+                </a>
+              </li>
+              <li class="govuk-footer__list-item">
+                <a class="govuk-footer__link" href="sitemap.html">
+                  Sitemap
+                </a>
+              </li>
+              <li class="govuk-footer__list-item">
+                <a class="govuk-footer__link" href="whats-new.html">
+                  What's new
+                </a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End of footer -->
+
+  </div>
+
+  <script src="./javascript/govuk-frontend.js"></script>
+  <!--[if !IE 8]><!-->
+  <script src="./javascript/application.js"></script>
+  <!--<![endif]-->
+  <!--[if lt IE 9]>
+    <script src="/javascripts/application-ie8-5a2cfeaee9daeca7d49c5835fd89f009.js"></script>
+  <![endif]-->
+
+</body>
+
+</html>
