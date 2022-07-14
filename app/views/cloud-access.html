@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Cloud support - Cloud Centre of Excellence</title>
+  <title>Cloud access - Cloud Centre of Excellence</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0b0c0c">
 
@@ -384,15 +384,17 @@
         </li>
 
         <li>
-          <div class="app-mobile-nav-subnav-toggler">
+          <div class="app-mobile-nav-subnav-toggler app-mobile-nav__subnav-toggler--active">
             <a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler"
               href="cloud-access.html">
               > Cloud access
             </a>
           </div>
 
-          <ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav" aria-label="Cloud access">
-            <li class="app-mobile-nav__subnav-item">
+          <ul
+            class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav app-mobile-nav__subnav--active"
+            aria-label="Cloud access">
+            <li class="app-mobile-nav__subnav-item app-mobile-nav__subnav-item--current">
               <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="cloud-access.html">
                 Cloud access overview
               </a>
@@ -469,17 +471,15 @@
         </li>
 
         <li>
-          <div class="app-mobile-nav-subnav-toggler app-mobile-nav__subnav-toggler--active">
+          <div class="app-mobile-nav-subnav-toggler">
             <a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler"
               href="cloud-access.html">
               > Cloud support
             </a>
           </div>
 
-          <ul
-            class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav app-mobile-nav__subnav--active"
-            aria-label="Cloud access">
-            <li class="app-mobile-nav__subnav-item app-mobile-nav__subnav-item--current">
+          <ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav " aria-label="Cloud access">
+            <li class="app-mobile-nav__subnav-item">
               <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="cloud-support.html">
                 Cloud support overview
               </a>
@@ -555,12 +555,12 @@
             data-topnav="Components">Cloud guidance</a>
         </li>
 
-        <li class="app-navigation__list-item">
+        <li class="app-navigation__list-item app-navigation__list-item--current">
           <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-access.html"
             data-topnav="Patterns">Cloud access</a>
         </li>
 
-        <li class="app-navigation__list-item app-navigation__list-item--current">
+        <li class="app-navigation__list-item">
           <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud-support.html"
             data-topnav="Patterns">Cloud support</a>
         </li>
@@ -571,22 +571,44 @@
       <div class="app-pane__subnav">
         <nav class="app-subnav">
 
-          <h4 id="side-nav" class="app-subnav__theme">Cloud support</h4>
+          <h4 id="side-nav" class="app-subnav__theme">AWS IAM account requests</h4>
+          <ul class="app-subnav__section">
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="who-can-create-an-aws-iam-ticket.html">Who
+                can create an AWS IAM ticket</a>
+            </li>
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="account-roles-and-approvers.html">Account roles and approvers</a>
+            </li>
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="how-to-avoid-common-delays.html">How to avoid common delays</a>
+            </li>
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="how-to-create-an-aws-iam-ticket.html">How to create an AWS IAM ticket</a>
+            </li>
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="new-user-next-steps.html">New
+                user next steps</a>
+            </li>
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="public-cloud-password-policy.html">Public cloud password policy</a>
+            </li>
+          </ul>     
+
+                    
+
+          <h4 id="side-nav" class="app-subnav__theme">Amazon Web Services (AWS) Sandbox</h4>
           <ul class="app-subnav__section">
             <li class="app-subnav__section-item">
               <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
-                href="cloud-vending-support.html">Cloud Vending Team support</a>
+                href="sandbox-best-practices.html">Sandbox best practices</a>
             </li>
             <li class="app-subnav__section-item">
-              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="aws-support.html">Amazon Web
-                Services (AWS) support</a>
-            </li>
-            <li class="app-subnav__section-item">
-              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="azure-support.html">Microsoft
-                Azure support</a>
-            </li>
-            <li class="app-subnav__section-item">
-              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="faq.html">FAQ</a>
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="sandbox-access.html">Sandbox
+                access</a>
             </li>
           </ul>
 
@@ -605,32 +627,81 @@
                   <a class="govuk-breadcrumbs__link" href="/">Home</a>
                 </li>
                 <li class="govuk-breadcrumbs__list-item">
-                  <a class="govuk-breadcrumbs__link" href="cloud-support.html">Cloud support</a>
+                  <a class="govuk-breadcrumbs__link" href="cloud-access.html">Cloud access</a>
                 </li>
             </div>
 
-            <h1 class="govuk-heading-xl">Cloud support</h1>
-
-            <!-- Start of training in the ho section -->
-
-            <p class="govuk-body">Here, you will find different support options to help you deal with cloud queries.
-              Some links will refer you to internal pages whereas others will take you to external material. All
-              available links and email addresses are trusted by the Home Office.</p>
-
-            <ul class="govuk-list govuk-list--spaced">
-              <li><a href="cloud-vending-support.html">Cloud Vending Team support</a> - explains how the team can help
-                you use the cloud in line with Home Office best practices, and also explains how you can get updates
-                from the team and be added to the distribution lists</li>
-              <li><a href="aws-support.html">AWS support page</a> - explains how to get support from the AWS account
-                team; this includes how to raise incidents yourself with the teams</li>
-              <li><a href="azure-support.html">Microsoft Azure support page</a> - explains how to get support from the
-                Azure account team</li>
-              <li><a href="faq.html">FAQ page</a> - answers the most common questions from users</li>
+            <h1 class="govuk-heading-xl">Cloud access</h1>
+            <p class="govuk-body">Contents:</p>
+            <ul class="govuk-list govuk-list--bullet">
+              <li><a href="#aws_iam_account_requests" class="govuk-link">Amazon Web Services (AWS) Identity and Access Management (IAM) account requests</a></li>
+              <li><a href="#sandbox" class="govuk-link">Sandbox</a></li>
             </ul>
 
-            <p class="govuk-body">For <a href="cloud-training.html">cloud training</a>, <a
-                href="cloud-guidance.html">cloud guidance</a> or <a href="cloud-access.html">cloud services</a> please
-              follow the links.</p>
+            <p class="govuk-body">Here, you will find the cloud services the Cloud Vending Team provide. The most used
+              service is the Amazon Web Services (AWS) Identity and Access Management (IAM) account requests. Users
+              create a ticket on the Jira Kanban board which is then completed by a member of the Cloud Vending Team.
+              There are a few steps required to create a ticket, all details are available in the following pages.</p>
+
+            <p class="govuk-body">Examples of why you may need to create an AWS IAM ticket are:</p>
+            <ul class="govuk-list govuk-list--bullet">
+              <li>creating cloud accounts</li>
+              <li>modifying cloud accounts</li>
+              <li>deleting cloud accounts</li>
+              <li>adding new roles</li>
+              <li>resetting passwords</li>
+              <li>deleting Multi-Factor Authentication (MFA)</li>
+            </ul>
+
+            <p class="govuk-body">The other service available to you is the Sandbox. Here you will find out the best
+              practices and how to access it. The request process to get access involves creating an IAM ticket.</p>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <h2 id="aws_iam_account_requests" class="govuk-heading-l">AWS IAM account requests</h2>
+            <ul class="govuk-list govuk-list--spaced">
+              <li>
+                <a class="govuk-link" href="who-can-create-an-aws-iam-ticket.html">Who can create an AWS IAM ticket</a> - to start
+                with you need to understand who can create an AWS IAM ticket, the Cloud Vending Team action and close
+                tickets but do not create them
+              </li>
+              <li>
+                <a class="govuk-link" href="account-roles-and-approvers.html">Account roles and approvers</a> - discover
+                how many different ticket types there are, and which of these do require approval and who can approve
+                them
+              </li>
+              <li>
+                <a class="govuk-link" href="how-to-avoid-common-delays.html">How to avoid common delays</a> - the Cloud
+                Vending Team can only action a ticket that has all the appropriate information available, see how to
+                avoid a delay on your ticket
+              </li>
+              <li>
+                <a class="govuk-link" href="how-to-create-an-aws-iam-ticket.html">How to create an AWS IAM ticket</a> - see
+                the
+                steps required to create an AWS IAM ticket, screen shots are visible for guidance but please make sure
+                you read each step
+              </li>
+              <li>
+                <a class="govuk-link" href="new-user-next-steps.html">New user next steps</a> - find the actions to take
+                once you have received your credentials to access AWS IAM
+              </li>
+            </ul>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <h2 id="sandbox" class="govuk-heading-l">Sandbox</h2>
+
+            <ul class="govuk-list govuk-list--spaced">
+              <li>
+                <a class="govuk-link" href="sandbox-best-practices.html">Sandbox best practices</a> - explains what a
+                sandbox is and how to use sandboxes
+              </li>
+              <li>
+                <a class="govuk-link" href="sandbox-access.html">Sandbox access</a> - explains how to access an AWS
+                sandbox
+              </li>
+            </ul>
+
 
             <!-- Hidden back to nav link </a> -->
             <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
