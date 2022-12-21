@@ -636,30 +636,16 @@
 
             <span class="govuk-caption-xl">Cloud Identity and Access Management (IAM) account requests</span>
             <h1 class="govuk-heading-xl">How to create an IAM ticket</h1>
-            
+
             <p class="govuk-body">Contents:</p>
+
             <ul class="govuk-list govuk-list--bullet">
-              <li><a href="#create_a_ticket" class="govuk-link">Create an Amazon Web Services (AWS) or Microsoft Azure IAM account ticket</a></li>
-              <li><a href="#new_user_requirements" class="govuk-link">New user request requirements</a></li>
+              <li><a href="#types_of_training" class="govuk-link">How to create an Amazon Web Services (AWS) or Microsoft Azure IAM account ticket</a></li>
+              <li><a href="#creting_accounts" class="govuk-link">Sign up for cloud training accounts</a></li>
             </ul>
 
-            <h2 id="create_a_ticket" class="govuk-heading-l">Create an Amazon Web Services (AWS) or Microsoft Azure IAM account ticket</h2>
 
-            <ol class="govuk-list govuk-list--number govuk-list--spaced">
-              <li>Visit the <a
-                  href="https://collaboration.homeoffice.gov.uk/jira/secure/RapidBoard.jspa?rapidView=1756">IAM account request Jira kanban
-                  board</a> and click the ‘Create’ button in the top right corner.</li>
-              <li>Select ‘Public Cloud Services (PCS)’ as the project.</li>
-              <li>Select the Issue Type as either ‘AWS Request’ or ‘Azure Request’.</li>
-              <li>Select the appropriate ‘Request type’ depending on your needs.</li>
-              <li>Fill in the form as required and create.</li>
-              <li>Once your ticket has been raised, a member of the Cloud Vending Team will pick up the ticket and
-                notify you when it has been completed.</li>
-            </ol>
-            <p class="govuk-body">Once your IAM ticket has been actioned by the Cloud Vending Team, there is
-              information available on <a href="aws-new-user-next-steps.html">what to do next for new users</a>.</p>
-
-            <h2 id="new_user_requirements" class="govuk-heading-l">New user request requirements</h2>
+            <h2 class="govuk-heading-l">New user request requirements</h2>
 
             <p class="govuk-body">The following points are a requirment before creating a new user request:</p>
 
@@ -674,6 +660,58 @@
               <li>attach an approver from the <a href="https://collaboration.homeoffice.gov.uk/pages/viewpage.action?pageId=100305442">approvers list</a></li>
             </ul>
 
+            <h2 class="govuk-heading-l">Creating an AWS IAM ticket</h2>
+
+            <p class="govuk-body">Things to remember when creating an Amazon Web Services (AWS) Identity and Access
+              Management (IAM) ticket:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+              <li>provide as much detail as possible for each ticket</li>
+              <li>failing to give us enough information could result in a delay in your request</li>
+              <li>the Cloud Vending Team will only be able to work from the information you provide in the ticket, it is
+                not our responsibility nor is it secure or appropriate for us to guess what is required</li>
+            </ul>
+
+            <p class="govuk-body">Once your AWS IAM ticket has been actioned by the Cloud Vending Team, there is
+              information available on <a href="aws-new-user-next-steps.html">what to do next for new users</a>.</p>
+
+            <p class="govuk-body">Below is an example of how to create a ticket requesting access for a new user in the
+              cloud. However, the same steps can be applied to all the ticket types.</p>
+
+            <ol class="govuk-list govuk-list--number govuk-list--spaced">
+              <li>Visit the <a
+                  href="https://collaboration.homeoffice.gov.uk/jira/secure/RapidBoard.jspa?rapidView=1756">Jira Kanban
+                  board</a> and click the ‘Create’ button in the top right corner.</li>
+              <img src="public/images/Step1.png" style="border: solid" alt="How to create a ticket">
+
+              <li>Select ‘AWS Account Change Request’ as the issue type. This is used for all AWS IAM tickets.</li>
+              <img src="public/images/issue_type.png" style="border: solid; max-width: 500px;" alt="Select issue type">
+
+              <li>Choose the appropriate ticket type. Is this for a new user to get access to the cloud, have you
+                forgotten your password or are you an existing user and want to get access to the sandbox. You would
+                select ‘New Access for Existing User’ in the last example.</li>
+              <img src="public/images/request_type.png" style="border: solid; max-width: 500px;" alt="Request type">
+
+              <li>Please fill in as much useful details as possible as this will help us complete the ticket as quick as
+                we can. See the example below for a new user request.</li>
+              <p class="govuk-body">Most ticket types require approval but if you are unsure that you need approval,
+                please see <a href="account-roles-and-approvers.html">Account roles and approvers.</a> </p>
+              <p class="govuk-body">When adding an approver you must make sure to add them into the description field.
+                You need to tag an approver by typing e.g. @Thomas (see screen shot below). As you start typing a list
+                of names will appear.</p>
+              <p class="govuk-body">If the user you are requesting a new account for, or a password reset for, has an
+                ‘@digital.homeoffice.gov.uk’ email address you must provide us with their GPG key. We need this to
+                encrypt their credentials before sending them out.</p>
+              <img src="public/images/example_1.png" style="border: solid; margin-bottom: -19px" alt="Example IAM request 1">
+              <img src="public/images/example_2.png" style="border: solid" alt="Example IAM request 2">
+
+              <li>Once your ticket has been raised, a member of the Cloud Vending Team will pick up the ticket and
+                notify you when it has been completed.</li>
+
+              <li>If a member of the Cloud Vending Team comments on the ticket requesting more information, and you do
+                not reply within 7 business days, the ticket will be commented on again and progressed into ‘Done’. You
+                can still comment on the ticket afterwards.</li>
+            </ol>
 
             <!-- Hidden back to nav link </a> -->
             <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
